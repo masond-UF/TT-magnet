@@ -1,0 +1,315 @@
+# 2021 October 12—David S. Mason—Exploring avian camera trap data
+###################### DATA AND PACKAGES ####################################### 
+bird.filt <- read.csv("Clean-data/Avian/Avian-cam-clean.csv")
+library(tidyverse)
+library(lubridate)
+###################### CREATE & ASSIGN FUNCTIONAL GROUPS ####################### 
+
+# Make vectors for each functional group
+Frugivores <- c("American crow", "Blue jay", "Eastern towhee",
+							 "Northern cardinal", "Pileated woodpecker",
+							 "Unknown woodpecker", "Eastern bluebird", "Eastern kingbird", 
+								"Eastern phoebe",	"Northern mockingbird", "Red-eyed vireo", 
+								"Yellow-breasted chat", "Yellow-throated vireo")
+Others <- c("Mourning dove", "Blue grosbeak", "Brown-headed cowbird", 
+						"Field sparrow", "Carolina wren", "Chuck-will's-widow", "Common yellowthroat",
+						"Great crested flycatcher", "Loggerhead shrike")
+
+# Create and fill a column for functional groups
+brd.filt.func <- brd.filt %>% 
+	mutate(Functional = ifelse(Species %in% Frugivores, "Frugivore",
+											ifelse(Species %in% Others, "Other","None")))
+
+# Check to make sure this worked
+unique(brd.filt.func$Functional)
+
+# We have one trap that was started earlier than others &
+# there may be a true zero at control. Either way it looks messy.
+
+brd.filt.func <- brd.filt.func %>% 
+	filter(!Week=='2020-04-12')
+
+###################### EXPLORATORY DATA ANALYSIS ###############################  
+summary(brd.filt.func)
+
+# Looking at bird observations by treatment
+brd.filt.func %>% group_by(Treatment,Site) %>% summarize(Count = n()) %>% 
+	ggplot(aes(x = Treatment, y = Count)) + geom_boxplot()
+
+# Looking by site (looks like an important RV)
+brd.filt.func %>% group_by(Site, Treatment) %>% summarize(Count = n()) %>% 
+	ggplot(aes(x = Treatment, y = Count)) + geom_col() + facet_wrap(~Site)
+
+# Looking by functional group (looks like a possible covariate)
+brd.filt.func %>% group_by(Treatment, Functional) %>% 
+	summarize(Count = n()) %>% 
+	ggplot(aes(x = Treatment, y = Count, color = Functional)) + 
+	geom_col(position = "Dodge") 
+
+# Lets explore the magnet effect with Date/Week (WOAH!)
+brd.filt.func %>% 
+	group_by(Treatment,Week,Functional) %>% 
+	summarize(Count = n()) %>% 
+	ggplot(aes(x = Week, y = Count, color = Functional))+
+	geom_point()+
+	geom_line()+
+	facet_wrap(~Treatment)
+
+###################### SUMMARIZE THE DATA ######################################
+
+# Data to compare all bird observations by treatment
+tot.obs <- brd.filt.func %>% 
+	group_by(Treatment,Site,Trap,Functional) %>% 
+	summarize(Count = n())
+
+# Data to visualize trend related to time
+time.obs <- brd.filt.func %>% 
+	group_by(Treatment,Site, Functional, Week) %>% 
+	summarize(Count = n())
+
+###################### CREATE THE TOTAL MODELS #################################
+library(lme4)
+library(lmerTest)
+library(emmeans)
+library(car)
+library(MuMIn)
+library(DHARMa)
+library(RVAideMemoire)
+
+# GLM
+smpl.mod <- glm(Count~Treatment*Functional,data=tot.obs, family = 'poisson')
+summary(smpl.mod)
+
+sim.smpl.mod <- simulateResiduals(fittedModel = smpl.mod, n = 250)
+plot(sim.smpl.mod) # warnings
+
+### Test for overdispersion (ie. more variance in the data than expected)
+testDispersion(sim.smpl.mod) # overdispersion
+
+### Test for zero-inflation (ie. more zeros in the data than expected)
+testZeroInflation(sim.smpl.mod) # not zero-inflated
+
+##### GLMM
+nst.mod <- glmer(Count~Treatment*Functional+(1|Site),data=tot.obs, family = 'poisson')
+summary(nst.mod)
+
+###### Diagnose GLMM model fit 
+
+sim.nst.mod <- simulateResiduals(fittedModel = nst.mod, n = 250)
+plot(sim.nst.mod) # little better than before
+
+overdisp.glmer(nst.mod) # ratio should be 1 (its high)
+
+####### GLM OD
+tot.obs$obs <- 1:length(tot.obs$Count) # adding dummy variable as RV
+
+nst.OD.mod <- glmer(Count~Treatment*Functional+(1|Site)+(1|obs),data=tot.obs, family = 'poisson')
+summary(nst.OD.mod)
+
+######## Diagnose the OD GLMM
+sim.nst.OD.mod <- simulateResiduals(fittedModel = nst.OD.mod, n = 250)
+plot(sim.nst.OD.mod) # still doesn't look good
+
+testUniformity(sim.nst.mod) # Failed
+testDispersion(sim.nst.mod) # Failed
+testZeroInflation(sim.nst.mod) # Failed
+
+######### Negative binomial
+nst.nb.mod <- glmer.nb(Count~Treatment*Functional+(1|Site), data=tot.obs)
+summary(nst.nb.mod)
+
+########## Diagnose the nb
+sim.nst.nb.mod <- simulateResiduals(fittedModel = nst.nb.mod, n = 250)
+plot(sim.nst.nb.mod)
+
+########### Poisson with Zero Inflation (note no overdispersion). Is it enough to account for zero inflation without correcting for overdispersion? 
+library(glmmTMB) ## new package. similar to lme4 but more flexibility and options
+
+nst.ZI.mod <- glmmTMB(Count~Treatment*Functional+(1|Site), 
+                      family=poisson, 
+                      zi=~Treatment*Functional, 
+                      data=tot.obs)
+
+############ Diagnose the OD GLMM
+sim.nst.ZI.mod <- simulateResiduals(fittedModel = nst.ZI.mod, n = 250)
+plot(sim.nst.ZI.mod) # still doesn't look good
+
+############# Poisson corrected for zero-inflation AND overdispersion
+nst.ZI.OD.mod <- glmmTMB(Count~Treatment*Functional+(1|Site)+(1|obs), 
+                     family=poisson, 
+                     zi=~Treatment*Functional, 
+                     data=tot.obs)
+summary(nst.ZI.OD.mod)
+
+############## Diagnose the ZI and OD GLMM 
+sim.nst.ZI.OD.mod <- simulateResiduals(fittedModel = nst.ZI.OD.mod, n = 250)
+plot(sim.nst.ZI.OD.mod) # Looks good
+
+##############  ZI negative binomial
+nst.ZI.nb.mod <- glmmTMB(Count~Treatment*Functional+(1|Site),
+                     family=nbinom2, 
+                     zi=~Treatment*Functional, 
+                     data=tot.obs)
+
+############### Diagnose the model
+sim.nst.ZI.nb.mod <- simulateResiduals(fittedModel = nst.ZI.nb.mod, n = 250)
+plot(sim.nst.ZI.nb.mod) # Looks decent
+
+###################### COMPARE THE TOTAL MODELS ################################
+summary(smpl.mod) ## summary for simple poisson model
+Anova(smpl.mod)  
+
+summary(nst.mod) ## summary for nested glmm
+Anova(nst.mod)  
+
+summary(nst.OD.mod)  ## summary for overdispered nested glmm
+Anova(nst.OD.mod)  
+
+summary(nst.nb.mod)  ## summary for nested negative binomial
+Anova(nst.nb.mod)
+
+summary(nst.ZI.mod)  ## summary for zero-inflated poisson
+Anova(nst.ZI.mod)
+
+summary(nst.ZI.OD.mod)  ## summary Poisson corrected for ZI AND OD
+Anova(nst.ZI.OD.mod)
+library(glmmTMB)
+library(insight)
+library(performance)
+
+get_variance(nst.ZI.OD.mod)
+r2(nst.ZI.OD.mod)
+
+summary(nst.ZI.nb.mod)  ## summary forzero-inflated nb
+Anova(nst.ZI.nb.mod)
+
+## which model is best?
+AIC(smpl.mod,nst.mod,nst.OD.mod,nst.nb.mod,nst.ZI.mod,
+		nst.ZI.OD.mod,nst.ZI.nb.mod)
+
+### examine SD associated with random effects 
+options (scipen = 999)
+VarCorr(nst.ZI.OD.mod) 
+SD <- matrix(c("Site","obs","total",0.0000012401,0.8552376549, sum(0.0000012401+0.8552376549)),nrow=3,ncol=2)
+colnames(SD) <- c("Groups", "SD")
+SD <- as.data.frame(SD)
+
+emmeans(nst.ZI.OD.mod, ~Treatment, type = 'response', bias.adj = T,
+				sigma = sqrt(0.8552389))
+emmeans(nst.ZI.OD.mod, ~Functional, type = 'response', bias.adj = T,
+				sigma = sqrt(0.8552389))
+
+means <- as.data.frame(emmeans(nst.ZI.OD.mod, ~Treatment*Functional, type = 'response', bias.adj = T,
+				sigma = sqrt(0.8552389)))
+###################### MAKE TOTAL FIGURE #######################################
+library("ggpubr")
+levels(means$Treatment)[levels(means$Treatment)=="B"] <- "Recent burn"
+levels(means$Treatment)[levels(means$Treatment)=="C"] <- "One-year rough"
+
+
+p1 <- ggplot(means, aes(x = Functional, y = rate))+
+	geom_linerange(aes(ymin=lower.CL,ymax=upper.CL, col=Functional), 
+								 size=1.5)+
+	geom_point(aes(col = Functional),size = 8)+
+	geom_point(shape = 1,size = 8,colour = "black")+
+	theme_bw()+
+	theme(text = element_text(size = 22),
+				legend.title = element_blank(),
+				legend.position = "none",
+				plot.title = element_text(hjust = 0.5),
+				strip.background = element_blank(),
+   			strip.text.y = element_blank(),
+				axis.title.x = element_text(face='bold', vjust=-2.5),
+				axis.title.y = element_text(face='bold', vjust=3),
+				strip.text.x = element_text(size = 18,face ='bold'),
+				legend.spacing.x = unit(0.5, 'cm'),
+				plot.margin = unit(c(1,1.2,0.9,1.2),"cm"),
+				legend.box.spacing = unit(1.2,'cm'),
+				axis.ticks.x = element_blank(),
+				axis.ticks.y = element_line(size=1.2))+
+	scale_color_manual(values = c("#00AFBB", "#E7B800"))+
+	scale_y_continuous(breaks=c(0,2,4,6,8,10), limits = c(0,11))+
+	ylab("Mean total observations")+
+	xlab("Feeding guild")+
+	facet_wrap(~Treatment)
+	
+###################### CREATE THE TIME-SERIES FIGURE ########################### 
+levels(brd.filt.func$Treatment)[levels(brd.filt.func$Treatment)=="B"] <- "Recent burn"
+levels(brd.filt.func$Treatment)[levels(brd.filt.func$Treatment)=="C"] <- "One-year rough"
+
+p2 <- brd.filt.func %>% 
+	group_by(Treatment,Site,Week,Functional) %>% 
+	summarize(Count = n()) %>% 
+	group_by(Treatment, Week, Functional) %>% 
+	summarize(Mean = mean(Count)) %>%
+	ggplot(aes(x = Week, y = Mean, color = Functional))+
+	geom_line(size=1.5, alpha=0.5)+
+	geom_point(size=3.5)+
+	geom_point(shape = 1,size = 3.5,colour = "black")+
+	theme_bw()+
+	theme(text = element_text(size = 22),
+				legend.title = element_blank(),
+				legend.position = 'none',
+				plot.title = element_text(hjust = 0.5),
+				strip.background = element_blank(),
+   			strip.text.y = element_blank(),
+				axis.title.x = element_text(face='bold', vjust=-2.5),
+				axis.title.y = element_text(face='bold', vjust=3),
+				strip.text.x = element_text(size = 18,face ='bold'),
+				axis.text.x = element_text(size=10),
+				legend.spacing.x = unit(0.5, 'cm'),
+				plot.margin = unit(c(1,1.2,0.9,1.2),"cm"),
+				legend.box.spacing = unit(1.2,'cm'),
+				axis.ticks.x = element_line(size=1.2),
+				axis.ticks.y = element_line(size=1.2))+
+	scale_color_manual(values = c("#00AFBB", "#E7B800"))+
+	scale_y_continuous(breaks=c(0,2,4,6,8,10), limits = c(0,11))+
+	scale_x_date(date_breaks = "1 week", labels = function(x) format(x, "%d-%b"))+
+	ylab("Mean observations")+
+	xlab("Sampling period")+
+	facet_wrap(~Treatment,dir = 'v')
+###################### COMBINE FIGURE ########################################## 
+library(lemon)
+grid_arrange_shared_legend(p1,p2)
+###################### ANIMATED FIGURE ########################################## 
+library(data.table)
+library(sf)
+library(gganimate)
+library(gifski)
+library(transformr)
+
+p3 <- brd.filt.func %>% 
+	group_by(Treatment,Site,Week,Functional) %>% 
+	summarize(Count = n()) %>% 
+	group_by(Treatment, Week, Functional) %>% 
+	summarize(Mean = mean(Count)) %>%
+	ggplot(aes(x = Week, y = Mean, color = Functional))+
+	geom_line(size=1.5, alpha=0.5)+
+	geom_point(size=3.5)+
+	transition_reveal(Week)+
+	theme_bw()+
+	theme(text = element_text(size = 22),
+				legend.title = element_blank(),
+				legend.position = 'right',
+				plot.title = element_text(hjust = 0.5),
+				strip.background = element_blank(),
+   			strip.text.y = element_blank(),
+				axis.title.x = element_text(face='bold', vjust=-2.5),
+				axis.title.y = element_text(face='bold', vjust=3),
+				strip.text.x = element_text(size = 18,face ='bold'),
+				axis.text.x = element_text(size=15,angle = 90),
+				legend.spacing.x = unit(0.5, 'cm'),
+				plot.margin = unit(c(1,1.2,0.9,1.2),"cm"),
+				legend.box.spacing = unit(1.2,'cm'),
+				axis.ticks.x = element_line(size=1.2),
+				axis.ticks.y = element_line(size=1.2))+
+	scale_color_manual(values = c("#00AFBB", "#E7B800"))+
+	scale_y_continuous(breaks=c(0,2,4,6,8,10), limits = c(0,11))+
+	scale_x_date(date_breaks = "1 week", date_labels = "%D")+
+	ylab("Mean observations")+
+	xlab("Sampling period")+
+	facet_wrap(~Treatment)
+
+p3_anim <- gganimate::animate(p3, duration = 10)
+gganimate::anim_save("p3_anim.gif", animation = p3_anim)
+

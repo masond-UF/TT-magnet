@@ -1,0 +1,314 @@
+Site,Treatment,Trap,Date,Time,Species,Age,Sex
+17,B,B,5/16/20,13:30,American crow,NA,NA
+6,C,B,5/11/20,2:33,Bat,Unknown,Unknown
+8,C,B,4/22/20,11:04,Blue grosbeak,Adult,Male
+8,B,C,5/13/20,9:01,Blue grosbeak,Adult,Male
+8,B,C,5/30/20,13:16,Blue grosbeak,Adult,Male
+16,B,B,5/25/20,18:39,Blue grosbeak,Adult,Female
+4,C,B,5/10/20,12:08,Blue jay,Adult,NA
+6,B,A,5/9/20,15:16,Blue jay,Adult,Unknown
+7,B,C,5/30/20,10:08,Blue jay,Adult,Unknown
+8,B,A,5/20/20,15:28,Blue jay,Adult,Unknown
+8,B,A,5/20/20,15:28,Blue jay,Juvenile,Unknown
+4,C,C,5/17/20,20:11,Brown-headed cowbird,Adult,Unknown
+4,C,C,5/17/20,20:11,Brown-headed cowbird,Adult,Unknown
+7,B,C,5/25/20,17:21,Brown-headed cowbird,Adult,Female
+7,C,C,5/21/20,18:07,Brown-headed cowbird,Adult,Female
+7,C,C,5/22/20,12:20,Brown-headed cowbird,Adult,Female
+7,C,C,5/20/20,6:59,Carolina wren,Adult,Unknown
+7,C,C,5/20/20,6:59,Carolina wren,Adult,Unknown
+6,B,A,5/2/20,6:09,Chuck-will's-widow,Adult,Unknown
+6,B,A,5/25/20,4:30,Chuck-will's-widow,Adult,Unknown
+4,C,C,5/2/20,17:53,Common yellowthroat,Adult,Unknown
+6,C,C,4/27/20,20:14,Common yellowthroat,Adult,Unknown
+6,C,C,5/1/20,8:35,Common yellowthroat,Adult,Unknown
+4,C,A,5/19/20,12:13,Common yellowthroat,Adult,Unknown
+4,B,A,4/21/20,16:36,Eastern bluebird,Adult,Male
+4,B,A,4/22/20,8:35,Eastern bluebird,Adult,Unknown
+4,B,A,4/22/20,8:35,Eastern bluebird,Adult,Unknown
+4,B,C,5/2/20,11:08,Eastern bluebird,Adult,Male
+4,C,A,5/10/20,10:54,Eastern bluebird,Adult,Male
+7,B,A,4/16/20,17:41,Eastern bluebird,Adult,Male
+7,B,A,4/22/20,15:24,Eastern bluebird,Adult,Male
+7,B,A,4/24/20,9:04,Eastern bluebird,Adult,Male
+7,B,A,4/24/20,13:19,Eastern bluebird,Adult,Male
+7,B,A,4/25/20,11:53,Eastern bluebird,Adult,Male
+7,B,A,4/25/20,18:30,Eastern bluebird,Adult,Male
+7,B,A,4/25/20,18:47,Eastern bluebird,Adult,Male
+7,B,A,4/26/20,15:33,Eastern bluebird,Adult,Male
+7,B,B,5/6/20,9:34,Eastern bluebird,Adult,Male
+7,B,B,5/6/20,10:10,Eastern bluebird,Adult,Male
+7,B,B,5/6/20,18:41,Eastern bluebird,Adult,Female
+8,B,C,5/7/20,19:59,Eastern bluebird,Adult,Female
+8,B,C,5/8/20,15:31,Eastern bluebird,Adult,Female
+16,B,B,5/11/20,11:05,Eastern bluebird,Adult,Male
+16,B,B,5/12/20,15:32,Eastern bluebird,Adult,Male
+1,B,A,5/28/20,15:39,Eastern bluebird,Adult,Male
+1,C,C,5/31/20,10:36,Eastern bluebird,Adult,Male
+4,B,B,5/31/20,10:46,Eastern bluebird,Adult,Male
+7,B,A,5/13/20,13:41,Eastern bluebird,Adult,Male
+7,B,A,5/17/20,9:37,Eastern bluebird,Adult,Male
+7,B,A,5/17/20,18:57,Eastern bluebird,Adult,Male
+7,B,B,5/12/20,19:40,Eastern bluebird,Adult,Unknown
+8,B,A,5/20/20,17:22,Eastern bluebird,Adult,Male
+8,B,A,5/20/20,17:22,Eastern bluebird,Adult,Female
+8,B,A,5/20/20,17:22,Eastern bluebird,Juvenile,Unknown
+8,B,A,5/20/20,17:22,Eastern bluebird,Juvenile,Unknown
+8,B,A,5/26/20,13:14,Eastern bluebird,Adult,Male
+8,B,A,5/27/20,13:14,Eastern bluebird,Juvenile,Unknown
+8,B,A,5/27/20,16:37,Eastern bluebird,Juvenile,Unknown
+8,B,A,5/29/20,6:29,Eastern bluebird,Juvenile,Unknown
+8,B,A,5/29/20,8:07,Eastern bluebird,Juvenile,Unknown
+8,B,A,5/29/20,12:02,Eastern bluebird,Juvenile,Unknown
+8,B,A,5/29/20,17:46,Eastern bluebird,Juvenile,Unknown
+8,B,A,5/29/20,19:29,Eastern bluebird,Juvenile,Unknown
+8,B,A,5/30/20,8:35,Eastern bluebird,Juvenile,Unknown
+8,B,A,5/30/20,8:41,Eastern bluebird,Juvenile,Unknown
+8,B,A,5/30/20,13:09,Eastern bluebird,Juvenile,Unknown
+8,B,A,5/30/20,16:11,Eastern bluebird,Juvenile,Unknown
+8,B,A,5/30/20,17:33,Eastern bluebird,Juvenile,Unknown
+16,B,A,5/21/20,13:19,Eastern bluebird,Juvenile,Unknown
+16,B,A,5/21/20,14:35,Eastern bluebird,Juvenile,Unknown
+16,B,A,5/22/20,11:39,Eastern bluebird,Juvenile,Unknown
+16,B,B,5/19/20,8:06,Eastern bluebird,Adult,Male
+16,B,B,5/26/20,12:57,Eastern bluebird,Adult,Male
+16,C,A,5/15/20,14:22,Eastern bluebird,NA,NA
+17,B,B,5/30/20,13:28,Eastern bluebird,Adult,Female
+17,C,B,5/18/20,11:40,Eastern bluebird,Adult,Female
+4,B,C,4/25/20,10:54,Eastern kingbird,Adult,Unknown
+8,B,B,5/4/20,12:15,Eastern Kingbird,Adult,Unknown
+8,C,C,5/5/20,16:39,Eastern kingbird,Adult,Unknown
+8,C,C,5/6/20,14:41,Eastern kingbird,Adult,Unknown
+8,C,C,5/6/20,16:29,Eastern kingbird,Adult,Unknown
+8,C,C,5/7/20,12:31,Eastern kingbird,Adult,Unknown
+8,C,C,5/8/20,12:00,Eastern kingbird,Adult,Unknown
+8,C,C,5/8/20,16:14,Eastern kingbird,Adult,Unknown
+8,C,C,5/9/20,11:49,Eastern kingbird,Adult,Unknown
+8,C,C,5/9/20,12:15,Eastern kingbird,Adult,Unknown
+8,C,C,5/9/20,16:21,Eastern kingbird,Adult,Unknown
+8,C,C,5/9/20,17:07,Eastern kingbird,Adult,Unknown
+16,B,B,5/12/20,6:18,Eastern kingbird,Adult,Male
+4,B,C,5/14/20,11:40,Eastern kingbird,Adult,Unknown
+4,B,C,5/14/20,11:40,Eastern kingbird,Adult,Unknown
+4,B,C,5/15/20,10:37,Eastern kingbird,Adult,Unknown
+4,B,C,5/15/20,12:31,Eastern kingbird,Adult,Unknown
+4,B,C,5/15/20,13:04,Eastern kingbird,Adult,Unknown
+4,B,C,5/15/20,19:25,Eastern kingbird,Adult,Unknown
+4,B,C,5/16/20,10:49,Eastern kingbird,Adult,Unknown
+4,B,C,5/16/20,11:46,Eastern kingbird,Adult,Unknown
+4,B,C,5/17/20,10:31,Eastern kingbird,Adult,Unknown
+4,B,C,5/17/20,11:53,Eastern kingbird,Adult,Unknown
+4,B,C,5/18/20,8:20,Eastern kingbird,Adult,Unknown
+4,B,C,5/18/20,11:56,Eastern kingbird,Adult,Unknown
+4,B,C,5/18/20,15:41,Eastern kingbird,Adult,Unknown
+4,B,C,5/18/20,16:31,Eastern kingbird,Adult,Unknown
+7,C,A,5/29/20,8:54,Eastern kingbird,Adult,Unknown
+7,C,A,5/30/20,11:35,Eastern kingbird,Adult,Unknown
+8,C,C,5/12/20,12:30,Eastern kingbird,Adult,Unknown
+8,C,C,5/12/20,13:05,Eastern kingbird,Adult,Unknown
+8,C,C,5/12/20,14:20,Eastern kingbird,Adult,Unknown
+8,C,C,5/12/20,14:26,Eastern kingbird,Adult,Unknown
+8,C,C,5/12/20,15:41,Eastern kingbird,Adult,Unknown
+8,C,C,5/12/20,16:42,Eastern kingbird,Adult,Unknown
+8,C,C,5/12/20,17:46,Eastern kingbird,Adult,Unknown
+8,C,C,5/13/20,11:20,Eastern kingbird,Adult,Unknown
+8,C,C,5/13/20,11:40,Eastern kingbird,Adult,Unknown
+8,C,C,5/13/20,11:47,Eastern kingbird,Adult,Unknown
+8,C,C,5/13/20,11:52,Eastern kingbird,Adult,Unknown
+8,C,C,5/13/20,12:39,Eastern kingbird,Adult,Unknown
+8,C,C,5/13/20,13:59,Eastern kingbird,Adult,Unknown
+8,C,C,5/13/20,14:28,Eastern kingbird,Adult,Unknown
+8,C,C,5/13/20,14:35,Eastern kingbird,Adult,Unknown
+8,C,C,5/13/20,14:44,Eastern kingbird,Adult,Unknown
+8,C,C,5/14/20,14:09,Eastern kingbird,Adult,Unknown
+8,C,C,5/14/20,16:25,Eastern kingbird,Adult,Unknown
+8,C,C,5/15/20,11:48,Eastern kingbird,Adult,Unknown
+8,C,C,5/15/20,11:59,Eastern kingbird,Adult,Unknown
+8,C,C,5/15/20,12:41,Eastern kingbird,Adult,Unknown
+8,C,C,5/15/20,14:35,Eastern kingbird,Adult,Unknown
+8,C,C,5/15/20,15:22,Eastern kingbird,Adult,Unknown
+8,C,C,5/15/20,15:30,Eastern kingbird,Adult,Unknown
+8,C,C,5/16/20,13:20,Eastern kingbird,Adult,Unknown
+8,C,C,5/16/20,15:23,Eastern kingbird,Adult,Unknown
+8,C,C,5/16/20,15:28,Eastern kingbird,Adult,Unknown
+8,C,C,5/17/20,10:25,Eastern kingbird,Adult,Unknown
+8,C,C,5/17/20,14:33,Eastern kingbird,Adult,Unknown
+8,C,C,5/17/20,15:02,Eastern kingbird,Adult,Unknown
+8,C,C,5/18/20,14:19,Eastern kingbird,Adult,Unknown
+8,C,C,5/18/20,14:43,Eastern kingbird,Adult,Unknown
+8,C,C,5/18/20,15:10,Eastern kingbird,Adult,Unknown
+8,C,C,5/18/20,16:38,Eastern kingbird,Adult,Unknown
+8,C,C,5/18/20,16:50,Eastern kingbird,Adult,Unknown
+8,C,C,5/18/20,16:55,Eastern kingbird,Adult,Unknown
+8,C,C,5/19/20,11:03,Eastern kingbird,Adult,Unknown
+8,C,B,5/29/20,18:08,Eastern phoebe,Adult,Unknown
+1,B,C,5/7/20,9:15,Eastern towhee,Adult,Male
+17,B,C,5/9/20,7:48,Eastern towhee,Adult,Unknown
+17,B,C,5/9/20,9:05,Eastern towhee,Adult,Male
+17,B,C,5/9/20,9:50,Eastern towhee,Adult,Unknown
+1,B,B,5/27/20,7:17,Eastern towhee,Adult,Male
+1,B,B,5/29/20,20:12,Eastern towhee,Adult,Unknown
+1,B,B,5/29/20,20:12,Eastern towhee,Adult,Unknown
+4,B,C,5/15/20,7:40,Eastern towhee,Adult,Unknown
+8,B,A,5/26/20,8:57,Field sparrow,Adult,Unknown
+4,B,A,4/21/20,10:38,Great crested flycatcher,Adult,Unknown
+4,B,A,4/24/20,11:35,Great crested flycatcher,Adult,Unknown
+4,B,A,5/4/20,8:58,Great crested flycatcher,Adult,Unknown
+4,B,A,5/9/20,17:20,Great crested flycatcher,Adult,Unknown
+6,B,A,4/22/20,11:14,Great crested flycatcher,Adult,Unknown
+6,B,B,4/22/20,17:41,Great crested flycatcher,Adult,Unknown
+6,B,C,4/25/20,11:31,Great crested flycatcher,Adult,Unknown
+7,B,A,5/3/20,20:01,Great crested flycatcher,Adult,Male
+17,C,B,5/12/20,16:43,Great crested flycatcher,Adult,Unknown
+1,B,B,5/30/20,9:05,Great crested flycatcher,Adult,Unknown
+1,B,C,5/23/20,11:43,Great crested flycatcher,Adult,Unknown
+6,B,A,5/27/20,16:10,Great crested flycatcher,Adult,Unknown
+6,B,B,5/14/20,12:53,Great crested flycatcher,Adult,Unknown
+6,B,B,5/30/20,14:58,Great crested flycatcher,Adult,Unknown
+7,C,C,5/13/20,8:30,Great crested flycatcher,Adult,Unknown
+7,C,C,5/13/20,18:09,Great crested flycatcher,Adult,Unknown
+17,C,A,5/21/20,12:05,Great crested flycatcher,Adult,Unknown
+17,C,A,5/22/20,9:14,Great crested flycatcher,Adult,Unknown
+17,C,B,5/16/20,11:27,Great crested flycatcher,Adult,Unknown
+1,C,C,5/14/20,15:37,Loggerhead shrike,Adult,Unknown
+1,C,C,5/14/20,15:37,Loggerhead shrike,Adult,Unknown
+1,C,C,5/15/20,18:43,Loggerhead shrike,Adult,Unknown
+1,C,C,5/29/20,9:37,Loggerhead shrike,Adult,Unknown
+4,C,B,4/27/20,12:46,Mourning dove,Adult,Unknown
+4,C,B,4/27/20,15:29,Mourning dove,Adult,Unknown
+4,C,C,5/19/20,11:44,Mourning dove,Adult,Unknown
+4,C,C,5/31/20,9:31,Mourning dove,Adult,Unknown
+7,C,C,5/14/20,18:53,Northern cardinal,Adult,Male
+7,C,C,5/22/20,7:55,Northern cardinal,Adult,Male
+7,C,C,5/25/20,16:15,Northern cardinal,Adult,Male
+1,B,C,4/18/20,11:31,Northern mockingbird,Adult,Unknown
+1,B,C,4/18/20,18:47,Northern mockingbird,Adult,Unknown
+1,B,C,4/19/20,10:19,Northern mockingbird,Adult,Unknown
+1,B,C,4/20/20,19:48,Northern mockingbird,Adult,Unknown
+1,B,C,4/22/20,11:24,Northern mockingbird,Adult,Unknown
+1,B,C,4/22/20,15:29,Northern mockingbird,Adult,Unknown
+1,B,C,5/1/20,17:05,Northern mockingbird,Adult,Unknown
+1,B,C,5/6/20,10:49,Northern mockingbird,Adult,Unknown
+1,B,C,5/3/20,9:38,Northern mockingbird,Adult,Unknown
+1,B,C,4/21/20,19:02,Northern mockingbird,Adult,Unknown
+1,B,C,4/21/20,19:02,Northern mockingbird,Adult,Unknown
+4,B,C,4/17/20,10:02,Northern mockingbird,Adult,Unknown
+8,B,B,4/15/20,17:18,Northern mockingbird,Adult,Unknown
+8,B,B,4/18/20,14:12,Northern mockingbird,Adult,Unknown
+8,B,B,4/18/20,16:58,Northern mockingbird,Adult,Unknown
+8,B,B,4/21/20,15:51,Northern mockingbird,Adult,Unknown
+8,B,B,5/7/20,9:02,Northern mockingbird,Adult,Unknown
+8,B,B,5/7/20,11:10,Northern mockingbird,Adult,Unknown
+8,B,B,5/10/20,14:04,Northern mockingbird,Adult,Unknown
+8,B,C,5/8/20,13:37,Northern mockingbird,Adult,Unknown
+8,B,C,5/8/20,13:37,Northern mockingbird,Adult,Unknown
+17,B,A,5/10/20,9:34,Northern mockingbird,Adult,Unknown
+17,B,C,5/9/20,12:40,Northern mockingbird,Adult,Unknown
+17,B,C,5/9/20,14:31,Northern mockingbird,Adult,Unknown
+17,B,C,5/11/20,8:04,Northern mockingbird,Adult,Unknown
+17,B,C,5/11/20,20:22,Northern mockingbird,Adult,Unknown
+17,B,C,5/13/20,9:57,Northern mockingbird,Adult,Unknown
+1,B,C,5/13/20,10:21,Northern mockingbird,Adult,Unknown
+1,B,C,5/31/20,15:07,Northern mockingbird,Adult,Unknown
+1,B,C,5/31/20,15:37,Northern mockingbird,Adult,Unknown
+1,C,A,5/22/20,11:03,Northern mockingbird,Adult,Unknown
+1,C,A,5/23/20,10:54,Northern mockingbird,Adult,Unknown
+1,C,A,5/23/20,13:21,Northern mockingbird,Adult,Unknown
+1,C,A,5/23/20,13:40,Northern mockingbird,Adult,Unknown
+1,C,A,5/24/20,11:20,Northern mockingbird,Adult,Unknown
+1,C,A,5/24/20,12:56,Northern mockingbird,Adult,Unknown
+1,C,A,5/24/20,14:37,Northern mockingbird,Adult,Unknown
+1,C,A,5/27/20,14:48,Northern mockingbird,Adult,Unknown
+1,C,A,5/28/20,12:55,Northern mockingbird,Adult,Unknown
+1,C,A,5/29/20,10:17,Northern mockingbird,Adult,Unknown
+1,C,A,5/29/20,10:55,Northern mockingbird,Adult,Unknown
+1,C,A,5/30/20,16:04,Northern mockingbird,Adult,Unknown
+1,C,A,5/31/20,10:09,Northern mockingbird,Adult,Unknown
+1,C,A,5/31/20,10:28,Northern mockingbird,Adult,Unknown
+1,C,A,5/31/20,13:55,Northern mockingbird,Adult,Unknown
+1,C,A,5/31/20,15:32,Northern mockingbird,Adult,Unknown
+4,C,C,5/21/20,13:36,Northern mockingbird,Adult,Unknown
+17,B,A,5/26/20,13:21,Northern mockingbird,Adult,Unknown
+17,B,A,5/29/20,18:07,Northern mockingbird,Adult,Unknown
+17,B,A,5/30/20,14:08,Northern mockingbird,Adult,Unknown
+6,C,B,5/7/20,11:44,Pileated woodpecker,Adult,Unknown
+7,B,A,4/20/20,9:50,Red-eyed vireo,Adult,Unknown
+16,B,B,5/11/20,11:05,Red-eyed vireo,Adult,Male
+6,C,B,5/14/20,23:40,Southern flying squirrel,Adult,Female
+6,C,B,5/4/20,21:17,Southern flying squirrel ,Unknown,Unknown
+6,C,B,5/4/20,21:29,Southern flying squirrel ,Unknown,Unknown
+6,C,B,5/7/20,21:48,Southern flying squirrel ,Unknown,Unknown
+6,C,B,5/7/20,21:48,Southern flying squirrel ,Unknown,Unknown
+6,C,B,5/8/20,1:57,Southern flying squirrel ,Unknown,Unknown
+6,C,B,5/11/20,2:33,Southern flying squirrel ,Unknown,Unknown
+6,C,B,5/11/20,23:39,Southern flying squirrel ,Unknown,Unknown
+4,C,B,4/27/20,20:24,Towhee,Adult,Unknown
+4,C,B,4/27/20,20:24,Towhee,Adult,Unknown
+1,C,C,5/17/20,13:28,Unknown animal,Unknown,Unknown
+6,C,B,5/22/20,23:36,Unknown bat,NA,NA
+1,B,C,4/17/20,20:17,Unknown bird,Unknown,Unknown
+6,C,C,5/1/20,8:35,Unknown bird,Unknown,Unknown
+6,C,C,5/1/20,8:35,Unknown bird,Unknown,Unknown
+6,C,C,5/4/20,8:35,Unknown bird,Unknown,Unknown
+17,B,B,5/13/20,8:10,Unknown bird,Unknown,Unknown
+17,B,C,5/13/20,12:33,Unknown bird,Unknown,Unknown
+17,B,C,5/14/20,6:25,Unknown bird,Unknown,Unknown
+17,C,B,5/9/20,7:12,Unknown bird,Unknown,Unknown
+1,B,C,5/31/20,11:19,Unknown bird,Unknown,Unknown
+1,C,A,5/27/20,19:00,Unknown bird,Unknown,Unknown
+1,C,C,5/17/20,13:28,Unknown bird,Unknown,Unknown
+4,B,C,5/14/20,18:32,Unknown bird,Adult,Unknown
+4,B,C,5/14/20,18:32,Unknown bird,Adult,Unknown
+4,C,C,5/19/20,15:01,Unknown bird,Unknown,Unknown
+4,C,C,5/21/20,13:36,Unknown bird,Unknown,Unknown
+4,C,C,5/21/20,13:44,Unknown bird,Unknown,Unknown
+4,C,C,5/30/20,11:32,Unknown bird,Unknown,Unknown
+4,C,C,5/30/20,11:32,Unknown bird,Unknown,Unknown
+6,C,C,5/16/20,10:45,Unknown bird,NA,NA
+8,B,A,5/21/20,13:59,Unknown bird,Unknown,Unknown
+8,B,A,5/26/20,13:14,Unknown bird,Adult,Male
+8,B,A,5/26/20,13:14,Unknown bird,Adult,Male
+8,B,A,5/28/20,19:43,Unknown bird,Unknown,Unknown
+8,B,A,5/28/20,19:43,Unknown bird,Unknown,Unknown
+8,B,A,5/30/20,13:09,Unknown bird,Unknown,Unknown
+8,B,A,5/30/20,16:11,Unknown bird,Unknown,Unknown
+8,B,A,5/31/20,6:17,Unknown bird,Unknown,Unknown
+16,B,B,5/18/20,6:16,Unknown bird,Unknown,Unknown
+16,B,B,5/25/20,13:09,Unknown bird,Unknown,Unknown
+17,B,A,5/26/20,13:21,Unknown bird,Unknown,Unknown
+1,B,A,5/7/20,20:11,Unknown mammal,Unknown,Unknown
+6,B,B,4/25/20,6:41,Unknown mammal,Unknown,Unknown
+6,B,A,4/16/20,21:56,Unknown mouse,Unknown,Unknown
+6,B,A,5/19/20,4:30,Unknown mouse,NA,NA
+7,C,B,5/13/20,11:35,Unknown vulture,Adult,Unknown
+1,B,C,5/23/20,11:43,Unknown woodpecker,Unknown,Unknown
+1,B,A,5/1/20,20:49,White-tailed deer,Adult,Female
+1,B,A,5/1/20,22:14,White-tailed deer,Adult,Female
+1,B,A,5/1/20,22:41,White-tailed deer,Adult,Female
+1,B,A,5/1/20,22:52,White-tailed deer,Adult,Female
+1,B,A,5/1/20,23:46,White-tailed deer,Adult,Female
+1,B,A,5/1/20,23:53,White-tailed deer,Adult,Female
+1,B,A,5/3/20,2:07,White-tailed deer,Adult,Female
+1,B,A,5/7/20,20:11,White-tailed deer,Adult,Female
+1,B,A,5/10/20,22:33,White-tailed deer,Adult,Male
+6,C,B,5/9/20,19:27,White-tailed deer,Adult,Female
+6,C,B,5/12/20,14:03,White-tailed deer,Unknown,Unknown
+6,C,B,5/12/20,14:03,White-tailed deer,Unknown,Unknown
+6,C,B,5/12/20,14:03,White-tailed deer,Unknown,Unknown
+8,C,C,5/9/20,17:00,White-tailed deer,Adult,Unknown
+8,C,C,5/9/20,17:00,White-tailed deer,Adult,Unknown
+8,C,C,5/9/20,17:00,White-tailed deer,Adult,Unknown
+8,C,C,5/9/20,17:00,White-tailed deer,Adult,Unknown
+8,C,C,5/9/20,17:07,White-tailed deer,Adult,Unknown
+8,C,C,5/9/20,17:07,White-tailed deer,Adult,Unknown
+8,C,C,5/9/20,17:07,White-tailed deer,Adult,Unknown
+8,C,C,5/9/20,17:07,White-tailed deer,Adult,Unknown
+6,C,B,5/12/20,19:13,White-tailed deer,Adult,Female
+6,C,B,5/14/20,20:19,White-tailed deer,Adult,Female
+6,C,B,5/14/20,20:46,White-tailed deer,Adult,Female
+6,C,B,5/14/20,20:46,White-tailed deer,Adult,Female
+6,C,C,5/28/20,16:01,Yellow-breasted chat,NA,NA
+7,C,B,5/15/20,11:49,Yellow-breasted chat,Adult,Unknown
+7,C,C,5/22/20,9:39,Yellow-breasted chat,Adult,Unknown
+7,B,C,5/7/20,17:33,Yellow-throated vireo,Adult,Unknown
+8,C,B,4/21/20,11:39,Yellow-throated vireo,Adult,Unknown
