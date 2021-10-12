@@ -63,3 +63,42 @@ ggplot(trap.rich, aes(x = TREATMENT, y = RICH,
 
 ggsave("Figures/Seed-trap-seed-rain-per-trap-richness-scatter.svg", 
 				device = "svg", dpi = 300)
+
+# Summarise seed detection richness by treatment ####
+
+# Create functons to calculate confidence intervals
+lower_ci <- function(mean, se, n, conf_level = 0.95){
+  lower_ci <- mean - qt(1 - ((1 - conf_level) / 2), n - 1) * se
+}
+upper_ci <- function(mean, se, n, conf_level = 0.95){
+  upper_ci <- mean + qt(1 - ((1 - conf_level) / 2), n - 1) * se
+}
+
+trmt.rich <- trap.rich %>% group_by(TREATMENT) %>% 
+	  dplyr::summarise(MEAN.RICH = mean(RICH, na.rm = TRUE),
+            ssd = sd(RICH, na.rm = TRUE),
+  					count = n()) %>%
+		dplyr::mutate(se = ssd / sqrt(count),
+        	  lower_ci = lower_ci(MEAN.RICH, se, count),
+        	  upper_ci = upper_ci(MEAN.RICH, se, count))
+
+# # Make bar graphs of seed richness by treatment ####
+ggplot(trmt.rich, aes(y = MEAN.RICH, x = TREATMENT, 
+																				 col = TREATMENT, fill = TREATMENT))+
+	geom_errorbar(aes(ymin = lower_ci, ymax = upper_ci),
+								 position=position_dodge(width=0.75))+
+	geom_bar(position = 'dodge', stat = 'identity')+
+	scale_color_manual(values = c('black', 'black', 'black'))+
+	scale_fill_manual(values = c('orange', '#1F9E89FF', '#1F9E89FF'))+
+	ylab("Mean trap richness")+
+	xlab("Treatment")+
+	scale_y_continuous(expand = c(0,0),
+										 limits = c(0,13),
+										 breaks = c(0,2,4,6,8,10,12))+
+	theme_classic()+
+	theme(axis.text=element_text(size=14),
+        axis.title=element_text(size=16,face="bold"))+
+	theme(legend.position = "none")
+	
+ggsave("Figures/Seed-trap-seed-rain-mean-trap-richness-barplot.svg", 
+				device = "svg", dpi = 300)
