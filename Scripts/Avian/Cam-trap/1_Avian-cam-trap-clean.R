@@ -35,4 +35,28 @@ levels(brd.filt$Species)[levels(brd.filt$Species) == "Towhee"] <- "Eastern towhe
 # Need to make Eastern Kingbird into Eastern kingbird for consistency
 levels(brd.filt$Species)[levels(brd.filt$Species) == "Eastern Kingbird"] <- "Eastern kingbird"
 
-write.csv(brd.filt,"Clean-data/Avian/Avian-cam-clean.csv")
+# Make vectors for each functional group
+Frugivores <- c("American crow", "Blue jay", "Eastern towhee",
+							 "Northern cardinal", "Pileated woodpecker",
+							 "Unknown woodpecker", "Eastern bluebird", "Eastern kingbird", 
+								"Eastern phoebe",	"Northern mockingbird", "Red-eyed vireo", 
+								"Yellow-breasted chat", "Yellow-throated vireo")
+Others <- c("Mourning dove", "Blue grosbeak", "Brown-headed cowbird", 
+						"Field sparrow", "Carolina wren", "Chuck-will's-widow", "Common yellowthroat",
+						"Great crested flycatcher", "Loggerhead shrike")
+
+# Create and fill a column for functional groups
+brd.filt.func <- brd.filt %>% 
+	mutate(Functional = ifelse(Species %in% Frugivores, "Frugivore",
+											ifelse(Species %in% Others, "Other","None")))
+
+# Check to make sure this worked
+unique(brd.filt.func$Functional)
+
+# We have one trap that was started earlier than others &
+# there may be a true zero at control. Either way it looks messy.
+
+brd.filt.func <- brd.filt.func %>% 
+	filter(!Week=='2020-04-12')
+
+write.csv(brd.filt.func,"Clean-data/Avian/Avian-cam-clean.csv")
