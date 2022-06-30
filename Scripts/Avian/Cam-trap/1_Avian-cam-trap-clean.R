@@ -40,10 +40,19 @@ Frugivores <- c("American crow", "Blue jay", "Eastern towhee",
 							 "Northern cardinal", "Pileated woodpecker",
 							 "Unknown woodpecker", "Eastern bluebird", "Eastern kingbird", 
 								"Eastern phoebe",	"Northern mockingbird", "Red-eyed vireo", 
-								"Yellow-breasted chat", "Yellow-throated vireo")
+								"Yellow-breasted chat", "Yellow-throated vireo", "Carolina chickadee",
+								"American robin", "Brown thrasher", "Gray catbird", "Hairy woodpecker",
+								"Indigo bunting", "Northern bobwhite", "Northern flicekr",
+								"Red-bellied woodpecker", "Red-cockaded woodpecker",
+								"Red-headed woodpecker", "Red-winged blackbird", "Song sparrow",
+								"Tufted titmouse", "Wood thrush", "Yellow-rumped warbler")
 Others <- c("Mourning dove", "Blue grosbeak", "Brown-headed cowbird", 
-						"Field sparrow", "Carolina wren", "Chuck-will's-widow", "Common yellowthroat",
-						"Great crested flycatcher", "Loggerhead shrike")
+						"Field sparrow", "Carolina wren", "Chuck-will's-widow", 
+						"Great crested flycatcher", "Loggerhead shrike", "Barn swallow", 
+						"Blue-gray gnatcatcher", "Chimney swift", "Cliff swallow",
+						"Common yellowthroat", "Common ground dove", "Hummingbird",
+						"Mourning dove", "Northern parula", "Prononthary warbler",
+						"White-breasted nuthatch", "Yellow-throated warbler")
 
 # Create and fill a column for functional groups
 brd.filt.func <- brd.filt %>% 

@@ -1,0 +1,522 @@
+DATE,PAIR,TREATMENT,GROUP,OBSERVER 1,OBSERVER 2,SPECIES,FUNCTIONAL,SEX,COUNT
+5/25/21,9,CONTROL,ML,Mason,Lashley,American Crow,Frugivore,U,1
+5/18/21,1,BURN,BS,Bowden,Szlabowicz,American Robin,Frugivore,U,1
+5/18/21,1,CONTROL,WR,Wilkin,Ribas,American Robin,Frugivore,U,2
+5/19/21,1,BURN,BW,Balmaceda,Walford,American Robin,Frugivore,F,1
+5/19/21,1,BURN,BW,Balmaceda,Walford,American Robin,Frugivore,M,2
+5/19/21,1,CONTROL,PT,Tolar,Pinkley,American Robin,Frugivore,U,1
+5/21/21,1,CONTROL,BW,Balmaceda,Walford,American Robin,Frugivore,U,4
+5/22/21,5,BURN,BW,Balmaceda,Walford,American Robin,Frugivore,U,1
+5/26/21,9,BURN,BW,NONE,Walford,American Robin,Frugivore,F,1
+5/26/21,9,BURN,BW,NONE,Walford,American Robin,Frugivore,M,1
+5/28/21,7,CONTROL,BW,Balmaceda,Walford,American Robin,Frugivore,F,1
+5/28/21,7,CONTROL,BW,Balmaceda,Walford,American Robin,Frugivore,M,1
+5/18/21,2,BURN,CM,Cantarero,Marcelletti,Blue Jay,Frugivore,U,2
+5/18/21,3,BURN,PT,Tolar,Pinkley,Blue Jay,Frugivore,U,2
+5/18/21,3,CONTROL,ML,Mason,Lashley,Blue Jay,Frugivore,U,1
+5/19/21,1,BURN,BW,Balmaceda,Walford,Blue Jay,Frugivore,U,3
+5/19/21,1,CONTROL,PT,Tolar,Pinkley,Blue Jay,Frugivore,U,2
+5/19/21,2,BURN,WR,Wilkin,Ribas,Blue Jay,Frugivore,U,4
+5/19/21,2,CONTROL,BS,Bowden,Szlabowicz,Blue Jay,Frugivore,U,1
+5/19/21,3,BURN,ML,Mason,Lashley,Blue Jay,Frugivore,U,3
+5/19/21,3,CONTROL,CM,Cantarero,Marcelletti,Blue Jay,Frugivore,U,2
+5/21/21,1,BURN,CM,Cantarero,Marcelletti,Blue Jay,Frugivore,F,1
+5/21/21,1,BURN,CM,Cantarero,Marcelletti,Blue Jay,Frugivore,U,1
+5/21/21,1,CONTROL,BW,Balmaceda,Walford,Blue Jay,Frugivore,U,1
+5/21/21,3,BURN,BS,Bowden,Szlabowicz,Blue Jay,Frugivore,U,2
+5/23/21,4,BURN,PT,Pinkley,Tolar,Blue Jay,Frugivore,M,3
+5/23/21,5,CONTROL,BS,Bowden,Szlabowicz,Blue Jay,Frugivore,U,1
+5/24/21,4,BURN,WR,Wilkin,Ribas,Blue Jay,Frugivore,U ,1
+5/24/21,4,CONTROL,PT,Pinkley,NONE,Blue Jay,Frugivore,U,1
+5/24/21,5,BURN,BS,Bowden,NONE,Blue Jay,Frugivore,U,1
+5/24/21,5,CONTROL,CM,Cantarero,Marcelletti,Blue Jay,Frugivore,M,1
+5/24/21,6,BURN,BW,Balmaceda,NONE,Blue Jay,Frugivore,M,1
+5/25/21,7,BURN,CM,Cantarero,Marcelletti,Blue Jay,Frugivore,U,7
+5/25/21,7,CONTROL,BS,Bowden,Szlabowicz,Blue Jay,Frugivore,U,7
+5/25/21,8,BURN,PT,Tolar,Pinkley,Blue Jay,Frugivore,U ,3
+5/25/21,9,BURN,WR,Wilkin,Ribas,Blue Jay,Frugivore,U,3
+5/25/21,9,CONTROL,ML,Mason,Lashley,Blue Jay,Frugivore,U,2
+5/26/21,7,BURN,ML,Mason,Lashley,Blue Jay,Frugivore,U,2
+5/26/21,8,CONTROL,WR,Wilkin,Ribas,Blue Jay,Frugivore,U,1
+5/26/21,9,BURN,BW,NONE,Walford,Blue Jay,Frugivore,U,5
+5/28/21,7,BURN,WR,Wilkin,Ribas,Blue Jay,Frugivore,U,1
+5/28/21,8,BURN,CM,Marcelletti,Cantarero,Blue Jay,Frugivore,U,3
+5/28/21,9,BURN,PT,Tolar,Pinkley,Blue Jay,Frugivore,U ,2
+5/21/21,2,BURN,PT,Pinkley,Tolar,Boat Tailed Grackle,Frugivore,U ,1
+5/18/21,2,BURN,CM,Cantarero,Marcelletti,Brewers Blackbird,Frugivore,U,1
+5/18/21,1,BURN,BS,Bowden,Szlabowicz,Brown Thrasher,Frugivore,F,1
+5/18/21,1,BURN,BS,Bowden,Szlabowicz,Brown Thrasher,Frugivore,M,1
+5/18/21,1,BURN,BS,Bowden,Szlabowicz,Brown Thrasher,Frugivore,U,1
+5/19/21,1,CONTROL,PT,Tolar,Pinkley,Brown Thrasher,Frugivore,U,2
+5/19/21,2,BURN,WR,Wilkin,Ribas,Brown Thrasher,Frugivore,U,2
+5/21/21,2,BURN,PT,Pinkley,Tolar,Brown Thrasher,Frugivore,U ,1
+5/23/21,4,BURN,PT,Pinkley,Tolar,Brown Thrasher,Frugivore,U ,1
+5/23/21,5,CONTROL,BS,Bowden,Szlabowicz,Brown Thrasher,Frugivore,U,1
+5/24/21,4,CONTROL,PT,Pinkley,NONE,Brown Thrasher,Frugivore,U,1
+5/25/21,7,BURN,CM,Cantarero,Marcelletti,Brown Thrasher,Frugivore,U,3
+5/26/21,7,BURN,ML,Mason,Lashley,Brown Thrasher,Frugivore,U,1
+5/28/21,8,BURN,CM,Marcelletti,Cantarero,Brown Thrasher,Frugivore,U,1
+5/19/21,2,BURN,WR,Wilkin,Ribas,Brown-Headed Cowbird,Frugivore,U ,1
+5/19/21,3,CONTROL,CM,Cantarero,Marcelletti,Brown-Headed Cowbird,Frugivore,U,1
+5/21/21,1,CONTROL,BW,Balmaceda,Walford,Brown-Headed Cowbird,Frugivore,U,1
+5/21/21,2,BURN,PT,Pinkley,Tolar,Brown-Headed Cowbird,Frugivore,U ,1
+5/22/21,5,BURN,BW,Balmaceda,Walford,Brown-Headed Cowbird,Frugivore,U,5
+5/22/21,6,BURN,WR,Wilkin,Ribas,Brown-Headed Cowbird,Frugivore,U ,6
+5/23/21,4,CONTROL,WR,Wilkin,Ribas,Brown-Headed Cowbird,Frugivore,U ,8
+5/23/21,5,BURN,CM,Cantarero,Marcelletti,Brown-Headed Cowbird,Frugivore,U,1
+5/23/21,6,CONTROL,BW,Balmaceda,Walford,Brown-Headed Cowbird,Frugivore,U,9
+5/24/21,6,CONTROL,ML,Mason,Lashley,Brown-Headed Cowbird,Frugivore,U,11
+5/25/21,7,BURN,CM,Cantarero,Marcelletti,Brown-Headed Cowbird,Frugivore,U,1
+5/25/21,9,CONTROL,ML,Mason,Lashley,Brown-Headed Cowbird,Frugivore,F,2
+5/25/21,9,CONTROL,ML,Mason,Lashley,Brown-Headed Cowbird,Frugivore,U,1
+5/28/21,8,BURN,CM,Marcelletti,Cantarero,Brown-Headed Cowbird,Frugivore,F,1
+5/28/21,8,BURN,CM,Marcelletti,Cantarero,Brown-Headed Cowbird,Frugivore,M,1
+5/28/21,7,BURN,WR,Wilkin,Ribas,Carolina Chickadee,Frugivore,U,2
+5/21/21,3,BURN,BS,Bowden,Szlabowicz,Downy Woodpecker,Frugivore,U,1
+5/22/21,4,BURN,BS,Bowden,Szlabowicz,Downy Woodpecker,Frugivore,U,1
+5/19/21,3,CONTROL,CM,Cantarero,Marcelletti,Downy Woodpecker ,Frugivore,U,2
+5/21/21,1,BURN,CM,Cantarero,Marcelletti,Downy Woodpecker ,Frugivore,U,1
+5/18/21,1,BURN,BS,Bowden,Szlabowicz,Eastern Bluebird,Frugivore,U,5
+5/18/21,2,BURN,CM,Cantarero,Marcelletti,Eastern Bluebird,Frugivore,U,2
+5/19/21,1,CONTROL,PT,Tolar,Pinkley,Eastern Bluebird,Frugivore,U,2
+5/21/21,3,BURN,BS,Bowden,Szlabowicz,Eastern Bluebird,Frugivore,M,1
+5/22/21,4,BURN,BS,Bowden,Szlabowicz,Eastern Bluebird,Frugivore,U,1
+5/22/21,6,BURN,WR,Wilkin,Ribas,Eastern Bluebird,Frugivore,M ,2
+5/23/21,5,BURN,CM,Cantarero,Marcelletti,Eastern Bluebird,Frugivore,F,2
+5/23/21,5,BURN,CM,Cantarero,Marcelletti,Eastern Bluebird,Frugivore,M,1
+5/24/21,5,BURN,BS,Bowden,NONE,Eastern Bluebird,Frugivore,U,4
+5/24/21,6,BURN,BW,Balmaceda,NONE,Eastern Bluebird,Frugivore,M,1
+5/25/21,7,CONTROL,BS,Bowden,Szlabowicz,Eastern Bluebird,Frugivore,U,1
+5/25/21,8,BURN,PT,Tolar,Pinkley,Eastern Bluebird,Frugivore,F ,2
+5/25/21,8,BURN,PT,Tolar,Pinkley,Eastern Bluebird,Frugivore,M ,3
+5/26/21,8,BURN,BS,Szlabowicz,Bowden,Eastern Bluebird,Frugivore,U,1
+5/28/21,9,BURN,PT,Tolar,Pinkley,Eastern Bluebird,Frugivore,U ,1
+5/18/21,1,BURN,BS,Bowden,Szlabowicz,Eastern Kingbird,Frugivore,U,2
+5/18/21,3,BURN,PT,Tolar,Pinkley,Eastern Kingbird,Frugivore,U,1
+5/18/21,3,CONTROL,ML,Mason,Lashley,Eastern Kingbird,Frugivore,U,10
+5/19/21,2,BURN,WR,Wilkin,Ribas,Eastern Kingbird,Frugivore,U,2
+5/19/21,3,BURN,ML,Mason,Lashley,Eastern Kingbird,Frugivore,U,1
+5/21/21,1,CONTROL,BW,Balmaceda,Walford,Eastern Kingbird,Frugivore,U,1
+5/21/21,2,CONTROL,WR,Wilkin,Ribas,Eastern Kingbird,Frugivore,U ,3
+5/21/21,3,CONTROL,ML,Mason,Lashley,Eastern Kingbird,Frugivore,U,2
+5/22/21,6,BURN,WR,Wilkin,Ribas,Eastern Kingbird,Frugivore,U ,3
+5/23/21,4,CONTROL,WR,Wilkin,Ribas,Eastern Kingbird,Frugivore,U ,2
+5/23/21,5,BURN,CM,Cantarero,Marcelletti,Eastern Kingbird,Frugivore,U,1
+5/23/21,6,BURN,ML,Mason,Lashley,Eastern Kingbird,Frugivore,U,3
+5/23/21,6,CONTROL,BW,Balmaceda,Walford,Eastern Kingbird,Frugivore,U,3
+5/24/21,5,BURN,BS,Bowden,NONE,Eastern Kingbird,Frugivore,U,1
+5/25/21,7,BURN,CM,Cantarero,Marcelletti,Eastern Kingbird,Frugivore,U,2
+5/26/21,7,BURN,ML,Mason,Lashley,Eastern Kingbird,Frugivore,U,1
+5/26/21,9,BURN,BW,NONE,Walford,Eastern Kingbird,Frugivore,U,2
+5/23/21,6,CONTROL,BW,Balmaceda,Walford,Eastern Phoebe,Frugivore,U,1
+5/25/21,7,CONTROL,BS,Bowden,Szlabowicz,Eastern Phoebe,Frugivore,U,1
+5/18/21,1,BURN,BS,Bowden,Szlabowicz,Eastern Towhee,Frugivore,U,5
+5/18/21,1,CONTROL,WR,Wilkin,Ribas,Eastern Towhee,Frugivore,U,8
+5/18/21,2,BURN,CM,Cantarero,Marcelletti,Eastern Towhee,Frugivore,M,1
+5/18/21,3,CONTROL,ML,Mason,Lashley,Eastern Towhee,Frugivore,M,1
+5/19/21,1,BURN,BW,Balmaceda,Walford,Eastern Towhee,Frugivore,M,4
+5/19/21,1,CONTROL,PT,Tolar,Pinkley,Eastern Towhee,Frugivore,M,9
+5/19/21,2,BURN,WR,Wilkin,Ribas,Eastern Towhee,Frugivore,U,5
+5/19/21,2,CONTROL,BS,Bowden,Szlabowicz,Eastern Towhee,Frugivore,F ,1
+5/19/21,2,CONTROL,BS,Bowden,Szlabowicz,Eastern Towhee,Frugivore,M ,1
+5/19/21,3,BURN,ML,Mason,Lashley,Eastern Towhee,Frugivore,F,5
+5/19/21,3,BURN,ML,Mason,Lashley,Eastern Towhee,Frugivore,M,8
+5/19/21,3,CONTROL,CM,Cantarero,Marcelletti,Eastern Towhee,Frugivore,U,1
+5/21/21,1,BURN,CM,Cantarero,Marcelletti,Eastern Towhee,Frugivore,F,1
+5/21/21,1,BURN,CM,Cantarero,Marcelletti,Eastern Towhee,Frugivore,M ,1
+5/21/21,1,BURN,CM,Cantarero,Marcelletti,Eastern Towhee,Frugivore,U,4
+5/21/21,1,CONTROL,BW,Balmaceda,Walford,Eastern Towhee,Frugivore,M,12
+5/21/21,2,BURN,PT,Pinkley,Tolar,Eastern Towhee,Frugivore,U,4
+5/21/21,2,CONTROL,WR,Wilkin,Ribas,Eastern Towhee,Frugivore,U ,6
+5/21/21,3,BURN,BS,Bowden,Szlabowicz,Eastern Towhee,Frugivore,F,1
+5/21/21,3,BURN,BS,Bowden,Szlabowicz,Eastern Towhee,Frugivore,M,3
+5/21/21,3,CONTROL,ML,Mason,Lashley,Eastern Towhee,Frugivore,F,2
+5/21/21,3,CONTROL,ML,Mason,Lashley,Eastern Towhee,Frugivore,M,3
+5/22/21,4,BURN,BS,Bowden,Szlabowicz,Eastern Towhee,Frugivore,F,1
+5/22/21,4,BURN,BS,Bowden,Szlabowicz,Eastern Towhee,Frugivore,M,1
+5/22/21,4,CONTROL,CM,Cantarero,Marcelletti,Eastern Towhee,Frugivore,F,1
+5/22/21,4,CONTROL,CM,Cantarero,Marcelletti,Eastern Towhee,Frugivore,F,1
+5/22/21,4,CONTROL,CM,Cantarero,Marcelletti,Eastern Towhee,Frugivore,U ,4
+5/22/21,5,BURN,BW,Balmaceda,Walford,Eastern Towhee,Frugivore,M,2
+5/22/21,6,BURN,WR,Wilkin,Ribas,Eastern Towhee,Frugivore,M ,5
+5/22/21,6,CONTROL,ML,Mason,NONE,Eastern Towhee,Frugivore,F,2
+5/22/21,6,CONTROL,ML,Mason,NONE,Eastern Towhee,Frugivore,M,5
+5/23/21,4,BURN,PT,Pinkley,Tolar,Eastern Towhee,Frugivore,M,5
+5/23/21,4,CONTROL,WR,Wilkin,Ribas,Eastern Towhee,Frugivore,M ,2
+5/23/21,4,CONTROL,WR,Wilkin,Ribas,Eastern Towhee,Frugivore,U ,3
+5/23/21,5,BURN,CM,Cantarero,Marcelletti,Eastern Towhee,Frugivore,F,1
+5/23/21,5,BURN,CM,Cantarero,Marcelletti,Eastern Towhee,Frugivore,M,2
+5/23/21,5,CONTROL,BS,Bowden,Szlabowicz,Eastern Towhee,Frugivore,F,1
+5/23/21,5,CONTROL,BS,Bowden,Szlabowicz,Eastern Towhee,Frugivore,M,4
+5/23/21,6,BURN,ML,Mason,Lashley,Eastern Towhee,Frugivore,F,2
+5/23/21,6,BURN,ML,Mason,Lashley,Eastern Towhee,Frugivore,F,2
+5/23/21,6,BURN,ML,Mason,Lashley,Eastern Towhee,Frugivore,M,1
+5/23/21,6,CONTROL,BW,Balmaceda,Walford,Eastern Towhee,Frugivore,M,2
+5/24/21,4,BURN,WR,Wilkin,Ribas,Eastern Towhee,Frugivore,M ,1
+5/24/21,4,CONTROL,PT,Pinkley,NONE,Eastern Towhee,Frugivore,M,6
+5/24/21,5,BURN,BS,Bowden,NONE,Eastern Towhee,Frugivore,M,1
+5/24/21,5,CONTROL,CM,Cantarero,Marcelletti,Eastern Towhee,Frugivore,U,3
+5/24/21,6,BURN,BW,Balmaceda,NONE,Eastern Towhee,Frugivore,F,1
+5/24/21,6,BURN,BW,Balmaceda,NONE,Eastern Towhee,Frugivore,M,4
+5/24/21,6,CONTROL,ML,Mason,Lashley,Eastern Towhee,Frugivore,F,3
+5/24/21,6,CONTROL,ML,Mason,Lashley,Eastern Towhee,Frugivore,M,5
+5/25/21,7,BURN,CM,Cantarero,Marcelletti,Eastern Towhee,Frugivore,U,3
+5/25/21,7,CONTROL,BS,Bowden,Szlabowicz,Eastern Towhee,Frugivore,M,2
+5/25/21,8,BURN,PT,Tolar,Pinkley,Eastern Towhee,Frugivore,F ,1
+5/25/21,8,CONTROL,BW,Balmaceda,Walford,Eastern Towhee,Frugivore,F,2
+5/25/21,8,CONTROL,BW,Balmaceda,Walford,Eastern Towhee,Frugivore,M,9
+5/25/21,9,CONTROL,ML,Mason,Lashley,Eastern Towhee,Frugivore,F,2
+5/25/21,9,CONTROL,ML,Mason,Lashley,Eastern Towhee,Frugivore,M,5
+5/25/21,9,CONTROL,ML,Mason,Lashley,Eastern Towhee,Frugivore,U,5
+5/26/21,7,BURN,ML,Mason,Lashley,Eastern Towhee,Frugivore,M,3
+5/26/21,7,CONTROL,PT,Tolar,Pinkley,Eastern Towhee,Frugivore,M,2
+5/26/21,8,BURN,BS,Szlabowicz,Bowden,Eastern Towhee,Frugivore,F,2
+5/26/21,8,CONTROL,WR,Wilkin,Ribas,Eastern Towhee,Frugivore,M,1
+5/26/21,9,BURN,BW,NONE,Walford,Eastern Towhee,Frugivore,M,3
+5/26/21,9,CONTROL,CM,Marcelletti,Cantarero,Eastern Towhee,Frugivore,M,3
+5/28/21,8,BURN,CM,Marcelletti,Cantarero,Eastern Towhee,Frugivore,F,1
+5/28/21,8,BURN,CM,Marcelletti,Cantarero,Eastern Towhee,Frugivore,M,1
+5/28/21,8,CONTROL,BS,Bowden,Szlabowicz,Eastern Towhee,Frugivore,F,5
+5/28/21,8,CONTROL,BS,Bowden,Szlabowicz,Eastern Towhee,Frugivore,M,3
+5/28/21,9,BURN,PT,Tolar,Pinkley,Eastern Towhee,Frugivore,U ,2
+5/28/21,9,CONTROL,ML,Lashley,NONE,Eastern Towhee,Frugivore,F,2
+5/28/21,9,CONTROL,ML,Lashley,NONE,Eastern Towhee,Frugivore,M,2
+5/19/21,1,BURN,BW,Balmaceda,Walford,Grey Catbird,Frugivore,U,1
+5/21/21,1,CONTROL,BW,Balmaceda,Walford,Grey Catbird,Frugivore,U,1
+5/18/21,3,CONTROL,ML,Mason,Lashley,Hairy Woodpecker,Frugivore,U,1
+5/19/21,3,BURN,ML,Mason,Lashley,Hairy Woodpecker,Frugivore,U,1
+5/28/21,9,CONTROL,ML,Lashley,NONE,Hairy Woodpecker,Frugivore,U,1
+5/18/21,1,BURN,BS,Bowden,Szlabowicz,Indigo Bunting,Frugivore,U,1
+5/18/21,1,CONTROL,WR,Wilkin,Ribas,Indigo Bunting,Frugivore,U,1
+5/18/21,3,BURN,PT,Tolar,Pinkley,Indigo Bunting,Frugivore,M,2
+5/18/21,3,CONTROL,ML,Mason,Lashley,Indigo Bunting,Frugivore,M,13
+5/19/21,2,BURN,WR,Wilkin,Ribas,Indigo Bunting,Frugivore,U,3
+5/19/21,3,BURN,ML,Mason,Lashley,Indigo Bunting,Frugivore,M,2
+5/21/21,1,CONTROL,BW,Balmaceda,Walford,Indigo Bunting,Frugivore,U,1
+5/21/21,3,BURN,BS,Bowden,Szlabowicz,Indigo Bunting,Frugivore,U,1
+5/21/21,3,CONTROL,ML,Mason,Lashley,Indigo Bunting,Frugivore,U,1
+5/23/21,5,BURN,CM,Cantarero,Marcelletti,Indigo Bunting,Frugivore,U,1
+5/24/21,5,BURN,BS,Bowden,NONE,Indigo Bunting,Frugivore,U,4
+5/24/21,6,CONTROL,ML,Mason,Lashley,Indigo Bunting,Frugivore,U,2
+5/25/21,7,BURN,CM,Cantarero,Marcelletti,Indigo Bunting,Frugivore,U,1
+5/25/21,9,CONTROL,ML,Mason,Lashley,Indigo Bunting,Frugivore,M,1
+5/26/21,8,BURN,BS,Szlabowicz,Bowden,Indigo Bunting,Frugivore,U,2
+5/28/21,8,BURN,CM,Marcelletti,Cantarero,Indigo Bunting,Frugivore,M,1
+5/28/21,9,CONTROL,ML,Lashley,NONE,Indigo Bunting,Frugivore,M,5
+5/23/21,4,CONTROL,WR,Wilkin,Ribas,Indigo Bunting ,Frugivore,U ,1
+5/18/21,3,BURN,PT,Tolar,Pinkley,Northern Bobwhite,Frugivore,U,3
+5/19/21,1,BURN,BW,Balmaceda,Walford,Northern Bobwhite,Frugivore,U,1
+5/19/21,3,BURN,ML,Mason,Lashley,Northern Bobwhite,Frugivore,U,2
+5/21/21,2,BURN,PT,Pinkley,Tolar,Northern Bobwhite,Frugivore,U ,2
+5/22/21,4,BURN,BS,Bowden,Szlabowicz,Northern Bobwhite,Frugivore,U,2
+5/24/21,6,CONTROL,ML,Mason,Lashley,Northern Bobwhite,Frugivore,M,1
+5/25/21,7,CONTROL,BS,Bowden,Szlabowicz,Northern Bobwhite,Frugivore,U,1
+5/26/21,8,BURN,BS,Szlabowicz,Bowden,Northern Bobwhite,Frugivore,U,3
+5/26/21,8,CONTROL,WR,Wilkin,Ribas,Northern Bobwhite,Frugivore,U,2
+5/18/21,1,CONTROL,WR,Wilkin,Ribas,Northern Bobwhite ,Frugivore,U,1
+5/18/21,1,BURN,BS,Bowden,Szlabowicz,Northern Cardinal,Frugivore,F,3
+5/18/21,1,BURN,BS,Bowden,Szlabowicz,Northern Cardinal,Frugivore,M,5
+5/18/21,1,BURN,BS,Bowden,Szlabowicz,Northern Cardinal,Frugivore,U,6
+5/18/21,1,CONTROL,WR,Wilkin,Ribas,Northern Cardinal,Frugivore,F,8
+5/18/21,1,CONTROL,WR,Wilkin,Ribas,Northern Cardinal,Frugivore,M,16
+5/18/21,2,BURN,CM,Cantarero,Marcelletti,Northern Cardinal,Frugivore,M,5
+5/18/21,3,BURN,PT,Tolar,Pinkley,Northern Cardinal,Frugivore,F,3
+5/18/21,3,BURN,PT,Tolar,Pinkley,Northern Cardinal,Frugivore,M,5
+5/18/21,3,CONTROL,ML,Mason,Lashley,Northern Cardinal,Frugivore,F,4
+5/18/21,3,CONTROL,ML,Mason,Lashley,Northern Cardinal,Frugivore,M,8
+5/19/21,1,BURN,BW,Balmaceda,Walford,Northern Cardinal,Frugivore,F,2
+5/19/21,1,BURN,BW,Balmaceda,Walford,Northern Cardinal,Frugivore,M,3
+5/19/21,1,CONTROL,PT,Tolar,Pinkley,Northern Cardinal,Frugivore,F,5
+5/19/21,1,CONTROL,PT,Tolar,Pinkley,Northern Cardinal,Frugivore,M,5
+5/19/21,2,BURN,WR,Wilkin,Ribas,Northern Cardinal,Frugivore,F,2
+5/19/21,2,BURN,WR,Wilkin,Ribas,Northern Cardinal,Frugivore,M ,4
+5/19/21,2,CONTROL,BS,Bowden,Szlabowicz,Northern Cardinal,Frugivore,F,1
+5/19/21,2,CONTROL,BS,Bowden,Szlabowicz,Northern Cardinal,Frugivore,M,3
+5/19/21,3,BURN,ML,Mason,Lashley,Northern Cardinal,Frugivore,M,4
+5/19/21,3,CONTROL,CM,Cantarero,Marcelletti,Northern Cardinal,Frugivore,U,9
+5/21/21,1,BURN,CM,Cantarero,Marcelletti,Northern Cardinal,Frugivore,F,7
+5/21/21,1,BURN,CM,Cantarero,Marcelletti,Northern Cardinal,Frugivore,M ,17
+5/21/21,1,CONTROL,BW,Balmaceda,Walford,Northern Cardinal,Frugivore,F,3
+5/21/21,1,CONTROL,BW,Balmaceda,Walford,Northern Cardinal,Frugivore,M,13
+5/21/21,2,CONTROL,WR,Wilkin,Ribas,Northern Cardinal,Frugivore,M ,2
+5/21/21,3,BURN,BS,Bowden,Szlabowicz,Northern Cardinal,Frugivore,F,9
+5/21/21,3,BURN,BS,Bowden,Szlabowicz,Northern Cardinal,Frugivore,M,14
+5/21/21,3,CONTROL,ML,Mason,Lashley,Northern Cardinal,Frugivore,M,6
+5/22/21,4,BURN,BS,Bowden,Szlabowicz,Northern Cardinal,Frugivore,F,4
+5/22/21,5,BURN,BW,Balmaceda,Walford,Northern Cardinal,Frugivore,M,4
+5/22/21,5,CONTROL,PT,Pinkley,Tolar,Northern Cardinal,Frugivore,F,1
+5/22/21,5,CONTROL,PT,Pinkley,Tolar,Northern Cardinal,Frugivore,M,7
+5/22/21,6,BURN,WR,Wilkin,Ribas,Northern Cardinal,Frugivore,M ,1
+5/22/21,6,CONTROL,ML,Mason,NONE,Northern Cardinal,Frugivore,F,2
+5/22/21,6,CONTROL,ML,Mason,NONE,Northern Cardinal,Frugivore,M,5
+5/23/21,4,BURN,PT,Pinkley,Tolar,Northern Cardinal,Frugivore,U ,1
+5/23/21,4,CONTROL,WR,Wilkin,Ribas,Northern Cardinal,Frugivore,M,4
+5/23/21,5,BURN,CM,Cantarero,Marcelletti,Northern Cardinal,Frugivore,F,1
+5/23/21,5,BURN,CM,Cantarero,Marcelletti,Northern Cardinal,Frugivore,M ,2
+5/23/21,5,CONTROL,BS,Bowden,Szlabowicz,Northern Cardinal,Frugivore,F,2
+5/23/21,5,CONTROL,BS,Bowden,Szlabowicz,Northern Cardinal,Frugivore,M,2
+5/23/21,6,CONTROL,BW,Balmaceda,Walford,Northern Cardinal,Frugivore,F,2
+5/23/21,6,CONTROL,BW,Balmaceda,Walford,Northern Cardinal,Frugivore,M,5
+5/24/21,4,BURN,WR,Wilkin,Ribas,Northern Cardinal,Frugivore,M ,4
+5/24/21,4,CONTROL,PT,Pinkley,NONE,Northern Cardinal,Frugivore,M,3
+5/24/21,5,BURN,BS,Bowden,NONE,Northern Cardinal,Frugivore,F,2
+5/24/21,5,BURN,BS,Bowden,NONE,Northern Cardinal,Frugivore,M,5
+5/24/21,5,CONTROL,CM,Cantarero,Marcelletti,Northern Cardinal,Frugivore,M,19
+5/24/21,6,BURN,BW,Balmaceda,NONE,Northern Cardinal,Frugivore,F,1
+5/24/21,6,BURN,BW,Balmaceda,NONE,Northern Cardinal,Frugivore,M,1
+5/24/21,6,CONTROL,ML,Mason,Lashley,Northern Cardinal,Frugivore,F,6
+5/24/21,6,CONTROL,ML,Mason,Lashley,Northern Cardinal,Frugivore,M,4
+5/25/21,7,BURN,CM,Cantarero,Marcelletti,Northern Cardinal,Frugivore,U,8
+5/25/21,7,CONTROL,BS,Bowden,Szlabowicz,Northern Cardinal,Frugivore,F,2
+5/25/21,7,CONTROL,BS,Bowden,Szlabowicz,Northern Cardinal,Frugivore,M,5
+5/25/21,8,CONTROL,BW,Balmaceda,Walford,Northern Cardinal,Frugivore,F,3
+5/25/21,8,CONTROL,BW,Balmaceda,Walford,Northern Cardinal,Frugivore,M,18
+5/25/21,9,BURN,WR,Wilkin,Ribas,Northern Cardinal,Frugivore,M,1
+5/26/21,7,BURN,ML,Mason,Lashley,Northern Cardinal,Frugivore,F,1
+5/26/21,7,BURN,ML,Mason,Lashley,Northern Cardinal,Frugivore,M,2
+5/26/21,7,BURN,ML,Mason,Lashley,Northern Cardinal,Frugivore,U,2
+5/26/21,7,CONTROL,PT,Tolar,Pinkley,Northern Cardinal,Frugivore,M,2
+5/26/21,8,BURN,BS,Szlabowicz,Bowden,Northern Cardinal,Frugivore,F,3
+5/26/21,8,BURN,BS,Szlabowicz,Bowden,Northern Cardinal,Frugivore,M,1
+5/26/21,8,CONTROL,WR,Wilkin,Ribas,Northern Cardinal,Frugivore,M,10
+5/26/21,9,BURN,BW,NONE,Walford,Northern Cardinal,Frugivore,M,5
+5/26/21,9,CONTROL,CM,Marcelletti,Cantarero,Northern Cardinal,Frugivore,F,3
+5/26/21,9,CONTROL,CM,Marcelletti,Cantarero,Northern Cardinal,Frugivore,M,2
+5/28/21,7,CONTROL,BW,Balmaceda,Walford,Northern Cardinal,Frugivore,M,5
+5/28/21,8,BURN,CM,Marcelletti,Cantarero,Northern Cardinal,Frugivore,F,2
+5/28/21,8,BURN,CM,Marcelletti,Cantarero,Northern Cardinal,Frugivore,M,3
+5/28/21,8,CONTROL,BS,Bowden,Szlabowicz,Northern Cardinal,Frugivore,F,3
+5/28/21,8,CONTROL,BS,Bowden,Szlabowicz,Northern Cardinal,Frugivore,M,20
+5/28/21,9,BURN,PT,Tolar,Pinkley,Northern Cardinal,Frugivore,F,2
+5/28/21,9,BURN,PT,Tolar,Pinkley,Northern Cardinal,Frugivore,M,1
+5/28/21,9,CONTROL,ML,Lashley,NONE,Northern Cardinal,Frugivore,F,3
+5/21/21,1,BURN,CM,Cantarero,Marcelletti,Northern Flicker ,Frugivore,U,1
+5/21/21,3,BURN,BS,Bowden,Szlabowicz,Northern Flicker ,Frugivore,U,1
+5/18/21,1,BURN,BS,Bowden,Szlabowicz,Northern Mockingbird,Frugivore,U,3
+5/18/21,2,BURN,CM,Cantarero,Marcelletti,Northern Mockingbird,Frugivore,U,7
+5/19/21,1,BURN,BW,Balmaceda,Walford,Northern Mockingbird,Frugivore,U,11
+5/19/21,2,BURN,WR,Wilkin,Ribas,Northern Mockingbird,Frugivore,U,1
+5/21/21,1,BURN,CM,Cantarero,Marcelletti,Northern Mockingbird,Frugivore,U,2
+5/21/21,1,CONTROL,BW,Balmaceda,Walford,Northern Mockingbird,Frugivore,U,3
+5/21/21,2,BURN,PT,Pinkley,Tolar,Northern Mockingbird,Frugivore,U,2
+5/21/21,2,CONTROL,WR,Wilkin,Ribas,Northern Mockingbird,Frugivore,U ,1
+5/23/21,4,BURN,PT,Pinkley,Tolar,Northern Mockingbird,Frugivore,U ,1
+5/23/21,6,CONTROL,BW,Balmaceda,Walford,Northern Mockingbird,Frugivore,U,1
+5/24/21,6,BURN,BW,Balmaceda,NONE,Northern Mockingbird,Frugivore,U,1
+5/25/21,8,CONTROL,BW,Balmaceda,Walford,Northern Mockingbird,Frugivore,U,2
+5/26/21,7,BURN,ML,Mason,Lashley,Northern Mockingbird,Frugivore,U,6
+5/26/21,7,CONTROL,PT,Tolar,Pinkley,Northern Mockingbird,Frugivore,U,1
+5/26/21,8,BURN,BS,Szlabowicz,Bowden,Northern Mockingbird,Frugivore,U,3
+5/26/21,9,BURN,BW,NONE,Walford,Northern Mockingbird,Frugivore,U,1
+5/28/21,7,CONTROL,BW,Balmaceda,Walford,Northern Mockingbird,Frugivore,U,1
+5/18/21,1,BURN,BS,Bowden,Szlabowicz,Pileated Woodpecker,Frugivore,U,1
+5/26/21,8,BURN,BS,Szlabowicz,Bowden,Pileated Woodpecker,Frugivore,U,1
+5/28/21,8,CONTROL,BS,Bowden,Szlabowicz,Pileated Woodpecker,Frugivore,U,2
+5/22/21,4,BURN,BS,Bowden,Szlabowicz,Red Eyed Vireo,Frugivore,U,1
+5/22/21,4,CONTROL,CM,Cantarero,Marcelletti,Red-Bellied Woodpecker,Frugivore,F,1
+5/22/21,4,CONTROL,CM,Cantarero,Marcelletti,Red-Bellied Woodpecker,Frugivore,M,1
+5/28/21,8,BURN,CM,Marcelletti,Cantarero,Red-Cockaded Woodpecker,Frugivore,U,1
+5/18/21,1,BURN,BS,Bowden,Szlabowicz,Red-Headed Woodpecker,Frugivore,U,5
+5/18/21,2,BURN,CM,Cantarero,Marcelletti,Red-Headed Woodpecker,Frugivore,U,2
+5/18/21,3,BURN,PT,Tolar,Pinkley,Red-Headed Woodpecker,Frugivore,M,2
+5/19/21,1,BURN,BW,Balmaceda,Walford,Red-Headed Woodpecker,Frugivore,U,7
+5/19/21,1,CONTROL,PT,Tolar,Pinkley,Red-Headed Woodpecker,Frugivore,U,9
+5/19/21,2,BURN,WR,Wilkin,Ribas,Red-Headed Woodpecker,Frugivore,U ,1
+5/21/21,1,BURN,CM,Cantarero,Marcelletti,Red-Headed Woodpecker,Frugivore,U ,2
+5/21/21,1,CONTROL,BW,Balmaceda,Walford,Red-Headed Woodpecker,Frugivore,U,6
+5/21/21,3,BURN,BS,Bowden,Szlabowicz,Red-Headed Woodpecker,Frugivore,U,2
+5/21/21,3,CONTROL,ML,Mason,Lashley,Red-Headed Woodpecker,Frugivore,U,1
+5/22/21,4,BURN,BS,Bowden,Szlabowicz,Red-Headed Woodpecker,Frugivore,U,9
+5/22/21,5,BURN,BW,Balmaceda,Walford,Red-Headed Woodpecker,Frugivore,U,5
+5/23/21,4,BURN,PT,Pinkley,Tolar,Red-Headed Woodpecker,Frugivore,M,6
+5/24/21,4,BURN,WR,Wilkin,Ribas,Red-Headed Woodpecker,Frugivore,U ,1
+5/24/21,4,CONTROL,PT,Pinkley,NONE,Red-Headed Woodpecker,Frugivore,M,1
+5/24/21,5,BURN,BS,Bowden,NONE,Red-Headed Woodpecker,Frugivore,U,1
+5/24/21,5,CONTROL,CM,Cantarero,Marcelletti,Red-Headed Woodpecker,Frugivore,U,1
+5/24/21,6,BURN,BW,Balmaceda,NONE,Red-Headed Woodpecker,Frugivore,U,2
+5/25/21,7,BURN,CM,Cantarero,Marcelletti,Red-Headed Woodpecker,Frugivore,U,3
+5/25/21,7,CONTROL,BS,Bowden,Szlabowicz,Red-Headed Woodpecker,Frugivore,U,5
+5/25/21,8,BURN,PT,Tolar,Pinkley,Red-Headed Woodpecker,Frugivore,U ,3
+5/25/21,8,CONTROL,BW,Balmaceda,Walford,Red-Headed Woodpecker,Frugivore,U,1
+5/25/21,9,BURN,WR,Wilkin,Ribas,Red-Headed Woodpecker,Frugivore,U,3
+5/25/21,9,CONTROL,ML,Mason,Lashley,Red-Headed Woodpecker,Frugivore,U,11
+5/26/21,7,BURN,ML,Mason,Lashley,Red-Headed Woodpecker,Frugivore,U,4
+5/26/21,7,CONTROL,PT,Tolar,Pinkley,Red-Headed Woodpecker,Frugivore,U,4
+5/26/21,8,BURN,BS,Szlabowicz,Bowden,Red-Headed Woodpecker,Frugivore,F,1
+5/26/21,8,BURN,BS,Szlabowicz,Bowden,Red-Headed Woodpecker,Frugivore,M,2
+5/26/21,9,CONTROL,CM,Marcelletti,Cantarero,Red-Headed Woodpecker,Frugivore,U,5
+5/28/21,7,BURN,WR,Wilkin,Ribas,Red-Headed Woodpecker,Frugivore,U,2
+5/28/21,7,CONTROL,BW,Balmaceda,Walford,Red-Headed Woodpecker,Frugivore,U,1
+5/28/21,8,BURN,CM,Marcelletti,Cantarero,Red-Headed Woodpecker,Frugivore,U,2
+5/28/21,8,CONTROL,BS,Bowden,Szlabowicz,Red-Headed Woodpecker,Frugivore,U,1
+5/28/21,8,CONTROL,BS,Bowden,Szlabowicz,Red-Headed Woodpecker,Frugivore,U,1
+5/28/21,9,BURN,PT,Tolar,Pinkley,Red-Headed Woodpecker,Frugivore,U ,3
+5/28/21,9,CONTROL,ML,Lashley,NONE,Red-Headed Woodpecker,Frugivore,U,7
+5/18/21,2,BURN,CM,Cantarero,Marcelletti,Red-Winged Blackbird,Frugivore,M,1
+5/19/21,2,BURN,WR,Wilkin,Ribas,Red-Winged Blackbird,Frugivore,U,3
+5/21/21,1,CONTROL,BW,Balmaceda,Walford,Red-Winged Blackbird,Frugivore,U,1
+5/21/21,2,BURN,PT,Pinkley,Tolar,Red-Winged Blackbird,Frugivore,U ,2
+5/22/21,4,BURN,BS,Bowden,Szlabowicz,Red-Winged Blackbird,Frugivore,U,5
+5/23/21,6,CONTROL,BW,Balmaceda,Walford,Red-Winged Blackbird,Frugivore,U,2
+5/28/21,7,CONTROL,BW,Balmaceda,Walford,Red-Winged Blackbird,Frugivore,U,2
+5/22/21,5,BURN,BW,Balmaceda,Walford,Song Sparrow,Frugivore,U,2
+5/19/21,1,BURN,BW,Balmaceda,Walford,Tufted Titmouse,Frugivore,U,2
+5/25/21,8,CONTROL,BW,Balmaceda,Walford,Tufted Titmouse,Frugivore,U,1
+5/26/21,9,BURN,BW,NONE,Walford,Tufted Titmouse,Frugivore,U,2
+5/24/21,5,CONTROL,CM,Cantarero,Marcelletti,Unknown Blackbird,Frugivore,U,2
+5/28/21,7,CONTROL,BW,Balmaceda,Walford,Unknown Blackbird,Frugivore,U,1
+5/23/21,6,CONTROL,BW,Balmaceda,Walford,Unknown Finch,Frugivore,U,1
+5/18/21,1,BURN,BS,Bowden,Szlabowicz,Unknown Sparrow,Frugivore,F,1
+5/26/21,9,BURN,BW,NONE,Walford,Wood thrush,Frugivore,U,1
+5/22/21,4,BURN,BS,Bowden,Szlabowicz,Yellow Breasted Chat,Frugivore,U,1
+5/22/21,6,CONTROL,ML,Mason,NONE,Yellow Breasted Chat,Frugivore,M,1
+5/19/21,2,CONTROL,BS,Bowden,Szlabowicz,Yellow Rumped Warbler,Frugivore,U,1
+5/18/21,1,BURN,BS,Bowden,Szlabowicz,Unknown,Unknown,U,13
+5/18/21,2,CONTROL,BW,Balmaceda,Walford,Unknown,Unknown,U,27
+5/18/21,3,BURN,PT,Tolar,Pinkley,Unknown,Unknown,U,20
+5/18/21,3,CONTROL,ML,Mason,Lashley,Unknown,Unknown,U,7
+5/19/21,1,BURN,BW,Balmaceda,Walford,Unknown,Unknown,U,35
+5/19/21,1,CONTROL,PT,Tolar,Pinkley,Unknown,Unknown,U,23
+5/19/21,3,BURN,ML,Mason,Lashley,Unknown,Unknown,U,19
+5/19/21,3,CONTROL,CM,Cantarero,Marcelletti,Unknown,Unknown,U,8
+5/21/21,1,BURN,CM,Cantarero,Marcelletti,Unknown,Unknown,U ,24
+5/21/21,1,CONTROL,BW,Balmaceda,Walford,Unknown,Unknown,U,47
+5/21/21,2,BURN,PT,Pinkley,Tolar,Unknown,Unknown,U ,26
+5/21/21,3,BURN,BS,Bowden,Szlabowicz,Unknown,Unknown,U,13
+5/21/21,3,CONTROL,ML,Mason,Lashley,Unknown,Unknown,U,14
+5/22/21,4,BURN,BS,Bowden,Szlabowicz,Unknown,Unknown,U,12
+5/22/21,5,BURN,BW,Balmaceda,Walford,Unknown,Unknown,U,14
+5/22/21,5,CONTROL,PT,Pinkley,Tolar,Unknown,Unknown,U,5
+5/22/21,6,CONTROL,ML,Mason,NONE,Unknown,Unknown,U,5
+5/23/21,4,BURN,PT,Pinkley,Tolar,Unknown,Unknown,U,8
+5/23/21,4,BURN,PT,Pinkley,Tolar,Unknown,Unknown,U ,NA
+5/23/21,5,BURN,CM,Cantarero,Marcelletti,Unknown,Unknown,U,9
+5/23/21,5,CONTROL,BS,Bowden,Szlabowicz,Unknown,Unknown,U,6
+5/23/21,6,CONTROL,BW,Balmaceda,Walford,Unknown,Unknown,U,20
+5/24/21,4,CONTROL,PT,Pinkley,NONE,Unknown,Unknown,U ,21
+5/24/21,5,BURN,BS,Bowden,NONE,Unknown,Unknown,U,14
+5/24/21,5,CONTROL,CM,Cantarero,Marcelletti,Unknown,Unknown,U,4
+5/24/21,6,BURN,BW,Balmaceda,NONE,Unknown,Unknown,U,19
+5/24/21,6,CONTROL,ML,Mason,Lashley,Unknown,Unknown,U,6
+5/25/21,7,BURN,CM,Cantarero,Marcelletti,Unknown,Unknown,U,8
+5/25/21,7,CONTROL,BS,Bowden,Szlabowicz,Unknown,Unknown,U,14
+5/25/21,8,BURN,PT,Tolar,Pinkley,Unknown,Unknown,U ,14
+5/25/21,8,CONTROL,BW,Balmaceda,Walford,Unknown,Unknown,U,6
+5/25/21,9,BURN,WR,Wilkin,Ribas,Unknown,Unknown,U,5
+5/25/21,9,CONTROL,ML,Mason,Lashley,Unknown,Unknown,U,14
+5/26/21,7,BURN,ML,Mason,Lashley,Unknown,Unknown,U,10
+5/26/21,7,CONTROL,PT,Tolar,Pinkley,Unknown,Unknown,U,5
+5/26/21,8,BURN,BS,Szlabowicz,Bowden,Unknown,Unknown,M,4
+5/26/21,8,BURN,BS,Szlabowicz,Bowden,Unknown,Unknown,U,12
+5/26/21,9,BURN,BW,NONE,Walford,Unknown,Unknown,U,6
+5/26/21,9,CONTROL,CM,Marcelletti,Cantarero,Unknown,Unknown,U,15
+5/28/21,7,CONTROL,BW,Balmaceda,Walford,Unknown,Unknown,U,13
+5/28/21,8,BURN,CM,Marcelletti,Cantarero,Unknown,Unknown,U,9
+5/28/21,8,CONTROL,BS,Bowden,Szlabowicz,Unknown,Unknown,U,1
+5/28/21,9,BURN,PT,Tolar,Pinkley,Unknown,Unknown,U ,22
+5/28/21,9,CONTROL,ML,Lashley,NONE,Unknown,Unknown,U,16
+5/19/21,2,BURN,WR,Wilkin,Ribas,Unknown ,Unknown,U,18
+5/19/21,2,CONTROL,BS,Bowden,Szlabowicz,Unknown ,Unknown,U,21
+5/21/21,2,CONTROL,WR,Wilkin,Ribas,Unknown ,Unknown,U ,4
+5/22/21,4,CONTROL,CM,Cantarero,Marcelletti,Unknown ,Unknown,U ,14
+5/22/21,6,BURN,WR,Wilkin,Ribas,Unknown ,Unknown,U ,7
+5/23/21,4,CONTROL,WR,Wilkin,Ribas,Unknown ,Unknown,U ,16
+5/24/21,4,BURN,WR,Wilkin,Ribas,Unknown ,Unknown,U ,6
+5/18/21,1,CONTROL,WR,Wilkin,Ribas,Unknown Warbler,Unknown,U,1
+5/18/21,3,BURN,PT,Tolar,Pinkley,Unknown Warbler,Unknown,M,2
+5/22/21,6,BURN,WR,Wilkin,Ribas,Unknown Warbler,Unknown,U ,1
+5/19/21,1,BURN,BW,Balmaceda,Walford,Unknown Warbler ,Unknown,U,1
+5/22/21,5,BURN,BW,Balmaceda,Walford,Unknown Warbler ,Unknown,U,1
+5/22/21,5,CONTROL,PT,Pinkley,Tolar,Unknown Warbler ,Unknown,U,1
+5/21/21,1,BURN,CM,Cantarero,Marcelletti,Barn Swallow,Other,U ,1
+5/24/21,6,BURN,BW,Balmaceda,NONE,Barn Swallow,Other,M,1
+5/28/21,7,CONTROL,BW,Balmaceda,Walford,Barn Swallow,Other,M,1
+5/19/21,1,BURN,BW,Balmaceda,Walford,Black & White Warbler,Other,U,1
+5/26/21,9,BURN,BW,NONE,Walford,Black & White Warbler,Other,U,1
+5/18/21,1,BURN,BS,Bowden,Szlabowicz,Blue Grosbeak,Other,U,1
+5/19/21,3,BURN,ML,Mason,Lashley,Blue Grosbeak,Other,M,4
+5/21/21,1,CONTROL,BW,Balmaceda,Walford,Blue Grosbeak,Other,U,1
+5/21/21,3,BURN,BS,Bowden,Szlabowicz,Blue Grosbeak,Other,U,3
+5/21/21,3,CONTROL,ML,Mason,Lashley,Blue Grosbeak,Other,M,1
+5/22/21,4,CONTROL,CM,Cantarero,Marcelletti,Blue Grosbeak,Other,U ,1
+5/24/21,5,BURN,BS,Bowden,NONE,Blue Grosbeak,Other,U,1
+5/26/21,9,CONTROL,CM,Marcelletti,Cantarero,Blue Grosbeak,Other,M,4
+5/28/21,9,CONTROL,ML,Lashley,NONE,Blue Grosbeak,Other,M,2
+5/19/21,1,BURN,BW,Balmaceda,Walford,Blue-Grey Gnatcatcher,Other,U,3
+5/21/21,1,CONTROL,BW,Balmaceda,Walford,Blue-Grey Gnatcatcher,Other,U,1
+5/24/21,6,BURN,BW,Balmaceda,NONE,Blue-Grey Gnatcatcher,Other,U,1
+5/26/21,9,BURN,BW,NONE,Walford,Blue-Grey Gnatcatcher,Other,U,1
+5/28/21,7,BURN,WR,Wilkin,Ribas,Blue-Grey Gnatcatcher,Other,M,3
+5/19/21,1,BURN,BW,Balmaceda,Walford,Carolina Wren,Other,U,2
+5/21/21,1,CONTROL,BW,Balmaceda,Walford,Carolina Wren,Other,U,2
+5/25/21,7,BURN,CM,Cantarero,Marcelletti,Carolina Wren,Other,U,1
+5/28/21,7,CONTROL,BW,Balmaceda,Walford,Carolina Wren,Other,U,1
+5/18/21,1,BURN,BS,Bowden,Szlabowicz,Chimney Swift,Other,U,1
+5/19/21,2,CONTROL,BS,Bowden,Szlabowicz,Chimney Swift,Other,U,2
+5/24/21,5,BURN,BS,Bowden,NONE,Chimney Swift,Other,U,1
+5/25/21,8,CONTROL,BW,Balmaceda,Walford,Cliff Swallow,Other,U ,1
+5/19/21,2,CONTROL,BS,Bowden,Szlabowicz,Common Yellowthroat,Other,M,1
+5/21/21,3,CONTROL,ML,Mason,Lashley,Common Yellowthroat,Other,M,11
+5/21/21,3,CONTROL,ML,Mason,Lashley,Common Yellowthroat,Other,U,1
+5/22/21,6,CONTROL,ML,Mason,NONE,Common Yellowthroat,Other,M,2
+5/24/21,5,CONTROL,CM,Cantarero,Marcelletti,Common Yellowthroat,Other,U,3
+5/18/21,1,CONTROL,WR,Wilkin,Ribas,Great Crested Flycatcher,Other,U,6
+5/18/21,2,BURN,CM,Cantarero,Marcelletti,Great Crested Flycatcher,Other,U,1
+5/19/21,3,CONTROL,CM,Cantarero,Marcelletti,Great Crested Flycatcher,Other,U,2
+5/22/21,5,BURN,BW,Balmaceda,Walford,Great Crested Flycatcher,Other,U,2
+5/23/21,4,BURN,PT,Pinkley,Tolar,Great Crested Flycatcher,Other,U ,1
+5/23/21,6,CONTROL,BW,Balmaceda,Walford,Great Crested Flycatcher,Other,U,1
+5/21/21,1,BURN,CM,Cantarero,Marcelletti,Great Crested Flycatcher ,Other,U,1
+5/21/21,3,BURN,BS,Bowden,Szlabowicz,Ground Dove,Other,U,4
+5/22/21,4,BURN,BS,Bowden,Szlabowicz,Ground Dove,Other,U,1
+5/23/21,6,BURN,ML,Mason,Lashley,Ground Dove,Other,U,3
+5/25/21,9,BURN,WR,Wilkin,Ribas,Hummingbird,Other,U,1
+5/28/21,7,BURN,WR,Wilkin,Ribas,Hummingbird,Other,U,1
+5/18/21,2,BURN,CM,Cantarero,Marcelletti,Mourning Dove,Other,U,6
+5/18/21,3,CONTROL,ML,Mason,Lashley,Mourning Dove,Other,F,1
+5/18/21,3,CONTROL,ML,Mason,Lashley,Mourning Dove,Other,M,1
+5/19/21,1,BURN,BW,Balmaceda,Walford,Mourning Dove,Other,U,1
+5/19/21,1,CONTROL,PT,Tolar,Pinkley,Mourning Dove,Other,M,1
+5/19/21,2,BURN,WR,Wilkin,Ribas,Mourning Dove,Other,U,3
+5/19/21,2,CONTROL,BS,Bowden,Szlabowicz,Mourning Dove,Other,U ,2
+5/21/21,1,BURN,CM,Cantarero,Marcelletti,Mourning Dove,Other,F,3
+5/21/21,1,BURN,CM,Cantarero,Marcelletti,Mourning Dove,Other,M,3
+5/21/21,1,BURN,CM,Cantarero,Marcelletti,Mourning Dove,Other,U ,10
+5/21/21,3,BURN,BS,Bowden,Szlabowicz,Mourning Dove,Other,F,2
+5/21/21,3,BURN,BS,Bowden,Szlabowicz,Mourning Dove,Other,M,2
+5/21/21,3,BURN,BS,Bowden,Szlabowicz,Mourning Dove,Other,U ,2
+5/21/21,3,CONTROL,ML,Mason,Lashley,Mourning Dove,Other,U,1
+5/23/21,5,BURN,CM,Cantarero,Marcelletti,Mourning Dove,Other,U,5
+5/25/21,8,BURN,PT,Tolar,Pinkley,Mourning Dove,Other,U ,1
+5/26/21,7,CONTROL,PT,Tolar,Pinkley,Mourning Dove,Other,U,2
+5/28/21,9,BURN,PT,Tolar,Pinkley,Mourning Dove,Other,U ,3
+5/26/21,9,BURN,BW,NONE,Walford,Mourning Dove ,Other,U,3
+5/23/21,6,CONTROL,BW,Balmaceda,Walford,Parula,Other,M,1
+5/24/21,5,BURN,BS,Bowden,NONE,Prononthary Warbler,Other,U,1
+5/19/21,3,CONTROL,CM,Cantarero,Marcelletti,Turkey Vulture,Other,U,1
+5/28/21,7,CONTROL,BW,Balmaceda,Walford,Turkey Vulture,Other,U,1
+5/18/21,3,BURN,PT,Tolar,Pinkley,Unknown Dove,Other,U,1
+5/21/21,1,CONTROL,BW,Balmaceda,Walford,Unknown Dove,Other,U,3
+5/21/21,2,BURN,PT,Pinkley,Tolar,Unknown Dove,Other,U ,1
+5/22/21,6,BURN,WR,Wilkin,Ribas,Unknown Flycatcher,Other,U ,1
+5/23/21,4,CONTROL,WR,Wilkin,Ribas,Unknown Flycatcher,Other,F ,1
+5/24/21,4,BURN,WR,Wilkin,Ribas,Unknown Flycatcher,Other,U ,1
+5/18/21,3,BURN,PT,Tolar,Pinkley,Unknown Nuthatch,Other,F,1
+5/21/21,1,BURN,CM,Cantarero,Marcelletti,Unknown Nuthatch,Other,U,1
+5/21/21,3,BURN,BS,Bowden,Szlabowicz,Unknown Nuthatch,Other,U,2
+5/26/21,8,BURN,BS,Szlabowicz,Bowden,Unknown Nuthatch,Other,U,1
+5/26/21,8,CONTROL,WR,Wilkin,Ribas,Unknown Nuthatch,Other,U,1
+5/18/21,3,CONTROL,ML,Mason,Lashley,White-Breasted Nuthatch,Other,F,4
+5/18/21,3,CONTROL,ML,Mason,Lashley,White-Breasted Nuthatch,Other,M,1
+5/18/21,3,CONTROL,ML,Mason,Lashley,White-Breasted Nuthatch,Other,U,3
+5/19/21,3,CONTROL,CM,Cantarero,Marcelletti,White-Breasted Nuthatch,Other,U,2
+5/22/21,4,BURN,BS,Bowden,Szlabowicz,White-Breasted Nuthatch,Other,U,1
+5/23/21,6,BURN,ML,Mason,Lashley,White-Breasted Nuthatch,Other,F,1
+5/23/21,6,BURN,ML,Mason,Lashley,White-Breasted Nuthatch,Other,U,6
+5/24/21,5,BURN,BS,Bowden,NONE,White-Breasted Nuthatch,Other,U,1
+5/24/21,6,BURN,BW,Balmaceda,NONE,White-Breasted Nuthatch,Other,U,1
+5/25/21,7,BURN,CM,Cantarero,Marcelletti,White-Breasted Nuthatch,Other,U,2
+5/25/21,8,BURN,PT,Tolar,Pinkley,White-Breasted Nuthatch,Other,U ,4
+5/26/21,9,CONTROL,CM,Marcelletti,Cantarero,White-Breasted Nuthatch,Other,M,1
+5/19/21,3,CONTROL,CM,Cantarero,Marcelletti,Yellow-Throated Warbler ,Other,U,1
+5/24/21,4,CONTROL,PT,Pinkley,NONE,Yellow-Throated Warbler ,Other,M,1
