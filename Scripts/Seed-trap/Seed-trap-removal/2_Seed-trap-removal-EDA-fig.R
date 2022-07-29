@@ -18,6 +18,15 @@ d$SPECIES <- revalue(d$SPECIES, c("SIAL"="MUSTARD",
 																		"HEAN"="SUNFLOWER",
 																		"CAAN"="PEPPER"))
 
+library(fitdistrplus)
+d$SEEDS.RM.RATE <- as.numeric(d$SEEDS.RM.RATE)
+descdist(d$SEEDS.RM.RATE)
+
+library(betareg)
+glmer(SEEDS.RM.RATE ~ TREATMENT*TRIAL + (1|SITE), family = binomial,
+							data = d)
+
+
 # Create functons to calculate confidence intervals
 lower_ci <- function(mean, se, n, conf_level = 0.95){
   lower_ci <- mean - qt(1 - ((1 - conf_level) / 2), n - 1) * se

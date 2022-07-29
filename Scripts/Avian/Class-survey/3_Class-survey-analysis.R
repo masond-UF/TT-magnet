@@ -42,6 +42,9 @@ summary(m3)
 sim.m3 <- simulateResiduals(m3)
 plot(sim.m3)
 
+library(car)
+Anova(m2)
+
 ## --------------- EXTRACT THE MEANS -------------------------------------------
 
 means <- as.data.frame(emmeans(m2, ~TREATMENT*FUNCTIONAL, type = 'response'))
